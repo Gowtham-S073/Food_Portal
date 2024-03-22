@@ -1,0 +1,140 @@
+ :root {
+    --darkest: #212121;
+    --darker: #292323;
+    --dark: #424242;
+    --light: #646464;
+    --lighter: #727272;
+    --lightest: #9E9E9E;
+    --selected: #FF6D00;
+}
+
+  
+
+.selected_text {
+    color: var(--selected);
+  }
+  
+.selected_text_sub {
+    color: var(--dark);
+}
+
+.previously_selected_text {
+    color: var(--darkest)
+}
+
+.non_selected_text {
+    color: var(--lighter);
+}
+
+
+.non_selected_text_sub {
+    color: var(--lightest);
+}
+
+.separator_line {
+    color: var(--lightest);
+}
+
+.veg_and_nonveg_headings {
+    margin-right: 10px;
+}
+
+.cat_heading {
+    color: var(--darker);
+}
+
+.list_item {
+    color: var(--lightest);
+  }
+  
+  .list_item.selected {
+    color: var(--selected); 
+  }
+
+  .choose_sentence {
+    color: var(--lighter);
+  }
+  
+  .starter_content {
+    width: 280px;
+  }
+  .starter_content2 {
+    width: 280px;
+  }
+  .main_change1_body {
+    margin-bottom: 100px;
+}
+
+  @media screen and (max-width: 1550px ) {
+    .main_change1_body {
+        padding-left: 130px;
+        margin-bottom: 0px;
+    }
+  }
+  @media screen and (max-width: 1125px ) {
+    .main_change1_body {
+        padding-left: 40px;
+    }
+  }
+
+  @media screen and  (max-width: 600px) {
+    .main_change1_body {
+        padding-left: 10px;
+    }
+    }
+
+  @media screen and (max-width: 1036px ) {
+    .head_desc {
+        padding-left: 0px !important;
+    }
+  }
+  
+
+
+  @media screen and (max-width: 450px ) {
+    .selected_text {
+        color: var(--selected);
+        font-size: 13px !important;
+    }
+    .non_selected_text {
+        font-size: 13px !important;
+    }
+    .previously_selected_text {
+        font-size: 13px !important;
+    }
+    .selected_text_sub {
+        font-size: 11px !important;
+    }
+    .non_selected_text_sub {
+        font-size: 11px !important;
+    }
+    .separator_line {
+        font-size: 11px;
+    }
+    .cat_heading {
+        font-size: 16px !important;
+    }
+    .starter_content {
+        padding-top: 10px !important;
+        padding-bottom: 15px !important;
+    }
+    .starter_content2 {
+        padding-top: 10px !important;
+        padding-bottom: 15px !important;
+    }
+    .choose_sentence {
+        font-size: 12px;
+    }
+    .item_label {
+        font-size: 14px;
+    }
+    
+    .selected {
+        margin-bottom: 8px !important;
+    }
+    .not_selected {
+        margin-bottom: 8px !important;
+    }
+} 
+
+

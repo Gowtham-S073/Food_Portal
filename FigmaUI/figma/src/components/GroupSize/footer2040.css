@@ -1,0 +1,159 @@
+.footer2040 .btn {
+  background-color: white;
+  border: 2px solid #FF6D00;
+  color: #FF6D00;
+  width: 137px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 8%;
+  height: 44px;
+  border-radius: 8px;
+}
+
+.footer2040 #btn1 {
+  background-color: #FF6D00;
+  color: white;
+  border: 2px solid #FF6D00;
+  width: 175px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  right: 8%;
+  border-radius: 8px;
+  height: 44px;
+}
+
+.footer2040 .progres-bar {
+  width: 1015px;
+  max-width: 100%;
+  height: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #eeeeee;
+  overflow: hidden;
+  position: absolute;
+  left: 20%;
+}
+
+.footer2040 .progres {
+  height: 100%;
+  background-color: #F7D38C;
+  width: 40%;
+}
+
+.footer2040 #percentages {
+  position: absolute;
+  font-weight: 500;
+  color: #424242;
+  top: 110%;
+  transform: translateY(-50%);
+  margin-left: 10%;
+}
+
+.footer2040 .btn:hover {
+  background-color: white;
+  border: 2px solid #FF6D00;
+  color: #FF6D00;
+}
+
+.footer2040 .footer {
+  box-shadow: 11px 3px 11px 4px rgba(12, 11, 11, 0.07);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0%;
+  right: 0;
+ 
+  background-color: white;
+}
+.footer .step1 {
+  display: none;
+}
+/* Responsive Styles for iPad Pro 11" */
+@media (max-width: 834px) {
+  .footer2040 .btn {
+    left: 4%;
+    width: 107px;
+   
+  }
+
+  .footer2040 #btn1 {
+    width: 113px;
+    left: auto;
+    right: 8%;
+  
+  }
+
+  .footer2040 .progres-bar {
+    width: 46%;
+    left: 20%;
+   
+  }
+
+  .footer2040 #percentages {
+    right: 50%;
+    transform: translateX(50%);
+    top: 90%;
+  
+  }
+
+  .footer2040 .footer {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 11px 3px 11px 4px rgba(12, 11, 11, 0.07);
+  }
+  .footer .step1 {
+    display: none;
+  }
+}
+/* Responsiveness for iPhone */
+@media (max-width: 375px) {
+  .footer2040 .progres-bar {
+    display: none;
+  }
+  .footer .step1 {
+        display: block;
+        margin-top: 5%;
+        margin-left: -80%;
+        font-size: 15px;
+}
+
+  .footer2040 #percentages {
+    display: none;
+  }
+  .footer2040 .btn {
+    width: 102px;
+    top: -500px;
+    left: 0;
+    right: 0;
+    border: 2px solid #f8f7f6;
+    position: absolute; 
+    z-index: 999;
+    display: none;
+  }
+  
+
+  .footer2040 #btn1 {
+    top: 50%; 
+    right: 20px; 
+    left: initial; 
+  }
+
+  .footer2040 .footer {
+   
+   
+   position: fixed;
+    bottom: 0px; 
+    left: 10px;
+   
+  }
+}

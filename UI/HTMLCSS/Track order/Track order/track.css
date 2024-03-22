@@ -1,0 +1,230 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.outerhead{
+    display: flex;
+    background-color: #FF6D00;
+    height: 4.5rem;
+    box-shadow: 0px 0.1875rem 0.6875rem rgba(86, 86, 86, 0.07);
+    background-color:#fff;
+}
+
+.head img{
+    position: relative;
+    top:1rem;
+    left:3rem;
+    width:9rem;
+    height: 3rem;
+}
+.outerdiv{
+    /* position: relative;
+    top:10rem; */
+    position:fixed;
+    top: 33.3%;
+    left: 25%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.body1{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    /* background-color: #7E8BB5; */
+}
+.body2{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    /* background-color: #7E8BB5; */
+}
+.innerdiv{
+    height: 15rem;
+    display:flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    /* justify-content: space-between; */
+}
+#item1_content{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+.item2{
+    /* position: relative;
+    top:0.5rem; */
+    /* bottom: 1rem; */
+    width:50rem;
+    /* height: 3rem; */
+    /* border: 2px solid black; */
+}
+.item2 p{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #727272;
+    /* padding-top: 0.5rem; */
+    
+}
+.item3{
+    /* position: relative;
+    top:2.5rem; */
+    padding-top: 2rem;
+}
+.item3 p{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.3rem;
+    color: #7E8BB5;
+    padding-bottom: 0.5rem;
+
+}
+#track_id{
+    width: 22rem;
+    height: 4rem;
+    border: 0.0625rem solid #C1C8CF;
+    border-radius: 0.5rem;
+} 
+ ::placeholder{
+    font-size: 1.2rem;
+    /* font-weight: 500; */
+    padding-left: 0.6rem;
+    color: #C1C8CF;
+}
+
+#btn{
+    width:8.5rem;
+    height:2.5rem;
+    background: hsl(26, 100%, 50%);
+    border-radius: 0.375rem;
+    color:#ffffff;
+    /* position: relative;
+     top:2rem; */
+    
+    /* padding-top: 2rem; */
+}
+.outerfoot{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(252, 145, 20, 0.15);
+}
+.innerfoot p{
+    font-family: poppins;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.whole_inner_div{
+    /* height: 55rem; */
+    /* height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14rem; */
+    /* background-color: #7E8BB5; */
+    /* justify-content: space-between; */
+}
+
+footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width:100%;
+}
+/* section{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+} */
+@media screen and (max-width:820px)
+{
+    .item2
+    {
+        width:44rem ;
+
+    }
+    .head img
+    {
+        position: relative;
+        left:1.5rem;
+    }
+    .whole_inner_div{
+        /* height: 100%;
+        display: flex;
+        flex-direction: column; */
+    }
+    .outerdiv{
+        /* position: relative;
+        top:10rem; */
+        position:fixed;
+        top: 33.3%;
+        left: 5%;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    footer{
+        position: fixed;
+        left:0;
+        bottom: 0;
+        width:100%;
+    }
+}
+@media screen and (max-width:420px){
+    /* *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+     */
+    .head img{
+        position: relative;
+        top: 1rem;
+        left: 0.1rem;
+        /* width: 9rem;
+        height: 3rem; */
+    }
+    .item2{
+        /* position: relative;
+        top:0.5rem; */
+        /* bottom: 1rem; */
+        width:23rem;
+        /* height: 3rem; */
+        /* border: 2px solid black; */
+    }
+    #btn{
+        height:2.5rem;
+        /* position: relative;
+        top:0rem; */
+        width:6rem;
+    }
+    #item1_content{
+        font-size:1.5rem ;
+    }
+    
+    .item2 p{
+        font-size: 1rem;
+    }
+    #track_id{
+        width: 20rem;
+        height: 3rem;
+    }
+     
+}
+    

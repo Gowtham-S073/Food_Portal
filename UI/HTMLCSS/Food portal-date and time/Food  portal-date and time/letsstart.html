@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Food hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="letsstart.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <script src="letsstart.js"></script>
+
+</head>
+
+<body>
+    <img src="bg1.png" id="bg">
+  
+  <!--header part-->
+
+  <div id="header">
+ 
+    <nav class="navbar navbar-light bg-light" id="logo">
+       
+      <div class="col-md-12">
+        <a class="navbar-brand" href="#">
+          <img src="Logo.png" alt="logo"/>
+        </a>
+      </div>
+     
+    </nav>
+  </div>
+
+  <!--main part-->
+  
+    <div class="row">
+      <div class="col-md-12">
+        <p id="centertext">Let's Started!</p>
+      </div>
+    </div>
+      
+    <div class="row">
+        <div class="col-md-12">
+          <p id="col1"><img src="date.png" alt="date" id="date">&nbsp &nbsp &nbsp &nbsp When will the party be?</p>
+        </div>
+    </div>  
+    
+    <div class="row">
+      <div class="col-md-12">
+          <div class="col2"><img src="datepicker.png" alt="datepicker" style="width:15px ; height:15px">&nbsp &nbsp<input type="date" class="datepicker" placeholder="Select date"></div>
+      </div>
+      <div id="modal">
+      <div class="col-md-12">
+          <div class="col3" class="popup" id="popup">
+            <img src="time.png" alt="time" style="width:15px; height:15px">&nbsp 
+            <input type="text" class="time" placeholder="Select time" onClick= "popupfunc()">
+            <span class="popuptext" id="timepopup">
+              <div class="timeslots" id="modal">
+                  <p style="font-size:x-large; text-align:left; margin-left: 15px;  margin-top: 5px;" onclick="hangeColor()">Pick a slot</p><br>
+                  <div class="row">
+                  <div class="tcol1"><button class="time-btn"  >10.00 am - 11.00 pm</button></div>
+                  <div class="tcol2"><button class="time-btn" >11.00 am - 12.00 pm</button></div>
+                  <div class="tcol3"><button class="time-btn" >12.00 am - 01.00 pm</button></div>
+                  </div>
+                  <div class="row">
+                  <div class="tcol4"><button class="time-btn">01.00 pm - 02.00 pm</button></div>
+                  <div class="tcol5"><button class="time-btn" >02.00 pm - 03.00 pm</button></div>
+                  <div class="tcol6"><button class="time-btn" >03.00 pm - 04.00 pm</button></div>
+                  </div>
+                  <div class="btns">
+                    <div class="cancel"><button type="cancel">Cancel</button></div>
+                    <!-- <div class="apply"><button type="submit">Apply</button></div> -->
+                    <input type="button"  id="cancelbtn" onclick="cancel()" value="Apply">
+                  </div>
+              </div>
+            </span>
+          </div>
+      </div>
+    </div>
+      <div class="row">
+        
+            <p id="col4"><img src="delivery.png" alt="delivery" id="delivery">&nbsp &nbsp &nbsp &nbsp Select a delivery option</p>
+        
+        <div class="row">
+          <div class="col">
+              <input type="radio" name="option" id="option1" value="option1">
+              <label for="option1" id="loption1">Pickup</label>
+          </div>
+          <div class="col">
+            <input type="radio" name="option" id="option2" value="option2" onclick="showDiv()">
+            <label for="option2" id="loption2">Delivery</label>
+          </div>
+          <div class="col">
+            <input type="radio" name="option"  id="option3" value="Delivery & Onsite Management" onclick="showDiv()">
+            <label for="option3" id="loption3">Delivery & Onsite Management</label>
+          </div>
+        </div>
+      </div>
+      
+      <div id="demo"style="display:none">
+          <p id="locationdiv"><img src="location.png" id="locimg"><input type="text" name="location" id="location" placeholder="Address"></p>
+      </div>
+
+    
+    </div>
+
+ 
+  <!--Footer-->
+  <footer>
+   
+    <div class="progress">
+    <div class="progress-bar" style="width: 0%;"></div>
+    </div>
+    <h6>0%</h6>
+    <a href="./../../Group size/Group size/group_size.html">
+    <button type="button" class="btn" id="btn1">Continue &nbsp &#62;</button>
+    </a>
+  </footer>
+
+  <script>
+    $('button').click(function () {
+      $('button').removeClass('active');
+      $(this).addClass('active');
+    });
+
+    function popupfunc() {
+            document.getElementById("modal").style.display = "block";
+            document.getElementById("whole").style.opacity = "0.3";
+
+
+      }
+    function yesFunction() {
+            document.getElementById("modal").style.display = "block";
+            document.getElementById("whole").style.opacity = "0.3";
+
+    function cancel() {
+            window.location.href = ""
+      }
+            
+      }
+    </script>
+<!--
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>

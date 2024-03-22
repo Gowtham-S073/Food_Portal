@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+</head>
+<body>
+    <div class="container1">
+        <div class="header">
+            <img src="images/logo.png" alt="Food Hut" class="logo">
+        </div>
+
+        <div class="main_container">
+            <div class="main_body">
+                <div class="fillbody">
+                    <h1 class="title">Filling Time :)</h1>
+
+                    <div class="below_title">
+                        <a href="">Date</a> <span>&nbsp&nbsp|&nbsp&nbsp</span>
+                        <a href="">Guest count</a> <span>&nbsp&nbsp|&nbsp&nbsp</span>
+                        <a href="">veg or non-veg</a> <span>&nbsp&nbsp|&nbsp&nbsp</span>
+                        <a href="">medium plate</a> 
+                    </div>
+                </div>
+                <div class="choosing_items">
+                    <div class="choosing_items_1">
+                        <img src="images/choose_item_icon.png" height="17px" width="14px" alt="icon">
+                        <span class="h4"> Choose items on your plate</span>
+                    </div>
+                     
+                     <div class="choosing_items_2">
+                        <div>
+                            <img src="images/spicy_icon.png" height="12px" width="12px" alt="icon">
+                            <span>- Spicy</span>
+                        </div>
+                        
+                        <div>
+                            <img src="images/Glutten_free_icon.png" height="12px" width="12px" alt="icon">
+                            <span>- Glutten free</span>
+                        </div>
+                        <div>
+                            <img src="images/veg_icon.png" height="12px" width="12px" alt="icon">
+                            <span>- Vegan</span>
+                        </div>
+                        
+                     </div>
+                </div>
+                
+                <div class="changing_body">
+                    <div class="navigation row">
+                        <div class=" navcol col-lg-2">
+                            <img src="images/present_coffee_icon.png" height="40px" width=40px" alt="icon">
+                            <div class="navcol2"><span>Starter</span> <span class="select_1_item"> Select 1 item</span></div>
+                            <div><img src="images/line.png" alt=""></div>
+                        </div>
+
+                        <div class=" navcol col-lg-2">
+                            <img src="images/past_coffee_icon.png" height="40px" width=40px" alt="icon">
+                            <div class="navcol2"><span>Curry</span> <span class="select_1_item"> Select 1 item</span></div>
+                            <div><img src="images/line.png" alt=""></div>
+                        </div>
+
+                        <div class=" navcol col-lg-2">
+                            <img src="images/past_coffee_icon.png" height="40px" width=40px" alt="icon">
+                            <div class="navcol2"><span>Bread</span> <span class="select_1_item"> Select 1 item</span></div>
+                            <div><img src="images/line.png" alt=""></div>
+                        </div>
+
+                        <div class=" navcol col-lg-2">
+                            <img src="images/past_coffee_icon.png" height="40px" width=40px" alt="icon">
+                            <div class="navcol2"><span>Rice</span> <span class="select_1_item"> Select 1 item</span></div>
+                            <div><img src="images/line.png" alt=""></div>
+                        </div>
+
+                        <div class=" navcol col-lg-2">
+                            <img src="images/past_coffee_icon.png" height="40px" width=40px" alt="icon">
+                            <div class="navcol2"><span>Dessert</span> <span class="select_1_item"> Select 1 item</span></div>
+                        </div>
+                    </div>
+
+                    <div class="item_list">
+                        <div class="veg_list">
+                            <div class="">
+                                <div class="item_heading">
+                                    <img src="images/veg_item_icon.png" alt="icon">
+                                    <span>Starter</span>
+                                </div>
+                                
+                                <div class="starter_content">
+                                    <span>You can choose 1 starter depend upon the plate size you selected</span>
+                                </div>
+                                
+                            </div>
+                            <div class="items">
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="samosa1" onclick="myplate()"></div><div><label for="samosa1">&nbsp Samosa</label></div>
+                                </div>
+                                
+                                <div class="item_containers">
+                                    <div> <input type="radio" name="starters" class="starters" id="onionpakora1" onclick="myplate()"></div><div><label for="onionpakora1">&nbsp Onion Pakora</label></div>
+                                </div>                                
+                                
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="mixvegpakora1" onclick="myplate()"></div><div><label for="mixvegpakora1">&nbsp Mix Veg Pakora</label></div>
+                                </div>
+                                
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="cutmirchipakora1" onclick="myplate()"></div><div><label for="cutmirchipakora1">&nbsp Cut Mirchi Pakora</label> </div>
+                                </div>
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="gobhimanchurian1" onclick="myplate()"></div><div><label for="gobhimanchurian1">&nbsp Gobhi Manchurian</label></div>      
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="nonveg_list">
+                            <div class="">
+                                <div class="item_heading">
+                                    <img src="images/non_veg_item_icon.png" alt="icon">
+                                    <span>Starter</span>
+                                </div>
+                                
+                                <div class="starter_content">
+                                    <span>You can choose 1 starter depend upon the plate size you selected</span>
+                                </div>                                
+                            </div>
+                            <div class="items">
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="chicken651" onclick="myplate()"></div><div><label for="chicken651">&nbsp Chicken 65</label></div>
+                                </div>
+                                
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="chickenlollipop1" onclick="myplate()"></div><div><label for="chickenlollipop1">&nbsp Chicken Lollipop</label></div>
+                                </div>
+    
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="chicken5551" onclick="myplate()"></div><div><label for="chicken5551">&nbsp Chicken 555</label></div>
+                                </div>
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="chillichicken1" onclick="myplate()"></div><div><label for="chillichicken1">&nbsp Cut Mirchi Pakora</label> </div>
+                                </div>                                
+                                <div class="item_containers">
+                                    <div><input type="radio" name="starters" class="starters" id="chickenpepperfry1" onclick="myplate()"></div><div><label for="chickenpepperfry1">&nbsp Gobhi Manchurian</label>   </div>                
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+    
+            </div>
+
+            <div class="changing_body2">
+                <div>
+                    <div class="plate_heading">
+                        <span class="" style="font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        /* font-size: 16px; */
+                        line-height: 32px;">Small Plate</span>
+                    </div>
+    
+                    <div class="item_add">
+                        <span style="font-style: normal;
+                        font-weight: 400;
+                        font-size: 11px;
+                        line-height: 24px;
+                        color: #9E9E9E;">1 starter + 1 curry + 1 bread + 1 white rice + 1 dessert</span>
+                    </div>
+                </div>
+
+                <div class="temp_bw_plate_and_veg">
+                    <div class="plate_container">
+                        <img class="plate" style="" src="images/plates.png" height="350px" width="344px" alt="">
+                        <div class="samosa_container">
+                            <img id="samosa" src="images/samosa.png" height="100px" width="100px" alt="">
+                        </div>
+                        <div class="onionpakora_container">
+                            <img id="onionpakora" src="images/kebab.jpg" height="55px" width="55px" alt="">
+    
+                        </div>
+                        <div class="mixvegpakora_container">
+                            <img id="mixvegpakora" src="images/chicken.jpg" height="55px" width="55px" alt="">
+                        </div>
+                        <div class="cutmirchipakora_container">
+                            <img id="cutmirchipakora" src="images/kebab.jpg" height="55px" width="55px" alt="">
+    
+                        </div>
+                        <div class="gobhimanchurian_container">
+                            <img id="gobhimanchurian" src="images/chicken.jpg" height="55px" width="55px" alt="">
+                        </div>
+    
+                    </div>
+    
+                    <div class="show_veg_body">
+                        <img src="images/veg_item_icon.png" alt="icon">
+                        <span style="font-style: normal;
+                        font-weight: 600;
+                         font-size: 16px; ">Veg</span>
+                        <div class="show_veg">
+                            <span style="color:#9E9E9E">Samosa</span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="show_non_veg_body">
+                    <img src="images/non_veg_item_icon.png" alt="icon">
+                    <span style="font-style: normal;
+                    font-weight: 600;
+                     font-size: 16px; ">Non-Veg</span>
+                    <div class="show_non_veg">
+                        <span style="color:#9E9E9E"> Chilli Chicken</span>
+                    </div>
+                </div>
+                
+                
+            </div>
+        
+            
+        </div>
+    
+        <!-- <div class="footer">
+            <input type= "button" value="< Back">
+            <div class="progress" style="height: 1em; width: 50em;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                  80%
+                </div>
+            </div>
+            <input type= "button" value="Continue >">
+
+        </div> -->
+        <div class="foot">
+            <footer>
+                <button type="button" class="btn">&#60; Back</button>
+                <div class="progress">
+                <div class="progress-bar " style="width: 80%;"></div></div>
+                <h6>80%</h6>
+                <a href="dummy.html">
+                <button type="button" class="btn" id="btn1">Continue &#62;</button>
+                </a>
+              </footer>
+        </div>
+    </div>
+    
+</body>
+</html>

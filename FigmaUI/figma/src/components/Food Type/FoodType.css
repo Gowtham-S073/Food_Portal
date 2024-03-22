@@ -1,0 +1,1687 @@
+.full {
+    width: 74%;
+    margin-top: 120px;
+    margin-left: 470px;
+}
+
+.spanorange {
+    color: #ff6d00;
+    padding: 8px;
+}
+
+.cardvn {
+    width: 199px !important;
+    height: 172px !important;
+    padding: 2% !important;
+    text-align: center !important;
+    border: 1px solid rgba(158, 158, 158, 1);
+    border-radius: 4px;
+}
+
+.cardvn.clicked {
+    border: 1px solid #ff6d00;
+    box-shadow: 3px 2px 8px 0 #f8cfa2;
+    font-weight: bold;
+}
+
+.h6image {
+    color: rgba(255, 109, 0, 1);
+    padding: 8px;
+    width: 13%;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgba(255, 109, 0, 0.1);
+
+}
+
+.count-button {
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    border: none;
+}
+
+.count {
+    font-size: 20px;
+}
+
+
+.tdtag {
+    width: 25%;
+
+}
+
+.tdtag span {
+    width: 20%;
+    padding: 10%;
+    color: #FF6D00;
+}
+
+.btm-img {
+    width: 480px;
+    height: 346px;
+    bottom: 85px;
+    left: 4px;
+    position: fixed;
+}
+
+.h3tag {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.h5tagg {
+    font-weight: 550;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.backbtn {
+    background-color: white;
+    border: 2px solid #FF6D00 !important;
+    color: #FF6D00;
+    width: 137px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8%;
+    height: 44px;
+    border-radius: 8px;
+}
+
+.topbackbtn{
+    display: none;
+}
+
+#continuebtn {
+    background-color: #FF6D00;
+    color: white;
+    border: 2px solid #FF6D00;
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 125px;
+    border-radius: 8px;
+    height: 44px;
+    text-decoration: none;
+}
+
+.progress-bars {
+    width: 1015px;
+    max-width: 100%;
+    height: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #eeeeee;
+    overflow: hidden;
+    position: absolute;
+    left: 20%;
+}
+
+
+.progress {
+    height: 100%;
+    background-color: #F7D38C !important;
+    width: 40%;
+}
+
+#percentage {
+    position: absolute;
+    font-weight: 500;
+    color: #424242;
+    top: 110%;
+    transform: translateY(-50%);
+    margin-left: 10%;
+}
+
+.backbtn:hover {
+    background-color: white;
+    border: 2px solid #FF6D00;
+    color: #FF6D00;
+}
+
+.foot {
+    box-shadow: 11px 3px 11px 3px rgba(12, 11, 11, 0.07);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+
+.step {
+    display: none;
+}
+
+.boxtag {
+    color: #666565;
+}
+
+/* Responsiveness for iPad */
+@media (max-width: 834px) {
+    .btm-img {
+        margin-bottom: 1px;
+        margin-left: 1px;
+        position: fixed;
+        width: 500px;
+        height: 350px;
+    }
+
+    .cardvn {
+        width: 170px !important;
+        height: 150px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border: 1px solid rgba(158, 158, 158, 1);
+        border-radius: 4px;
+    }
+
+    .full {
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+
+    .row {
+        padding: 2px;
+    }
+
+    .h5tagg {
+        font-weight: 580;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .count-button {
+        font-size: 28px;
+        height: 45px;
+
+    }
+
+    .count {
+        font-size: 26px;
+    }
+
+    .tdtag {
+        width: 20%;
+    }
+
+    .tdtag span {
+        width: 20%;
+        padding: 10%;
+    }
+
+    .h6image {
+        color: rgba(255, 109, 0, 1);
+        width: 170px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 6px;
+        background-color: rgba(255, 109, 0, 0.1);
+    }
+
+    .counth5 {
+        margin-top: -35px;
+        margin-left: 50px;
+        white-space: nowrap;
+    }
+
+    .foot {
+        margin-bottom: 1px;
+    }
+
+    .backbtn {
+        left: 4%;
+        width: 107px;
+    }
+
+    #continuebtn {
+        width: 113px;
+        left: 80%;
+        right: 8%;
+    }
+
+    .progress-bars {
+        width: 55%;
+        position: relative;
+        left: 20%;
+    }
+
+    #percentage {
+        right: 60%;
+        top: 70px;
+        transform: translateX(50%);
+    }
+
+    .step {
+        display: none;
+    }
+}
+
+/* Responsiveness for iPhone */
+@media (max-width: 375px) {
+    .full{
+        margin-top: 5px;
+    }
+    .h3tag {
+        font-size: 20px !important;
+        margin-left: -30px;
+        margin-top: 25px !important;
+    }
+
+    .cardvn {
+        width: 100%;
+    }
+
+    .progress-bars {
+        display: none;
+    }
+
+    #percentage {
+        display: none;
+    }
+
+    .backbtn {
+        display: none;
+    }
+    .topbackbtn{
+        border:transparent;
+        margin-left: -25px;
+        margin-top: 5px;
+        display: block;
+        color:#ff6d00;
+        background-color: transparent;
+    }
+
+    #continuebtn {
+        width: 127px !important;
+        margin-left: -90px !important;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .imgcook {
+        margin-left: -30px;
+        width: 22px !important;
+        height: 17px !important;
+        margin-top: -25px;
+    }
+
+    .foot {
+        width: 375px !important;
+        height: 50px;
+        position: absolute;
+        top: 94%;
+    }
+
+    .step {
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .cardvn {
+        width: 125px !important;
+        height: 130px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border-radius: 4px;
+        margin-top: -15px !important;
+        margin-left: -19px;
+        margin-right: -30px;
+    }
+
+    .veg-nonveg-card {
+        margin-left: -317px !important;
+        margin-top: 140px !important;
+    }
+
+    .veg-nonveg-card .veg-nonveg-text {
+        margin-top: -10px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-weight: 50;
+        font-size: 14px;
+        line-height: 28px;
+        color: #646464;
+    }
+
+    .btm-img {
+        display: none;
+    }
+
+    .h3tag {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .ptag {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: -30px;
+        line-height: 24px;
+    }
+
+    .boxtag {
+        margin-left: 1px;
+        font-size: 18px !important;
+    }
+
+    .h5tagg {
+        font-size: 18px;
+        margin-left: -12px;
+        margin-top: -18px;
+    }
+
+    .h6image {
+        width: 200px;
+        margin-left: 400px !important;
+    }
+
+    .imgveg {
+        margin-left: 10px !important;
+    }
+
+    .imgveg,
+    .imgnonveg {
+        margin-top: -2px !important;
+    }
+
+    .counth5 {
+        margin-top: -20px;
+        margin-left: -13px;
+        font-size: 18px;
+    }
+
+    .second {
+        padding-top: -10px;
+    }
+
+    .count-button {
+        font-size: 14px;
+        width: 30px;
+        height: 35px;
+        padding: 0;
+        border: none;
+
+    }
+
+    .h6image {
+        display: none;
+    }
+
+    .count {
+        font-size: 14px;
+    }
+
+}
+
+/* Responsiveness for 376-413 */
+@media (min-width:376px) and (max-width:413px) {
+    .full{
+        margin-top: 5px;
+    }
+    .h3tag {
+        font-size: 20px !important;
+        margin-left: -30px;
+        margin-top: 25px !important;
+    }
+
+    .cardvn {
+        width: 100%;
+    }
+
+    .progress-bars {
+        display: none;
+    }
+
+    #percentage {
+        display: none;
+    }
+
+    .backbtn {
+        display: none;
+        /* margin-top: -740px !important;
+        border: 2px solid white !important;
+        width: 200px !important;
+        margin-left: -70px !important; */
+    }
+    .topbackbtn{
+        border:transparent;
+        margin-left: -25px;
+        margin-top: 5px;
+        display: block;
+        color:#ff6d00;
+        background-color: transparent;
+    }
+
+    #continuebtn {
+        width: 127px !important;
+        margin-left: -90px !important;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .imgcook {
+        margin-left: -30px;
+        width: 22px !important;
+        height: 17px !important;
+        margin-top: -25px;
+    }
+
+    .foot {
+        width: 375px !important;
+        height: 50px;
+        position: absolute;
+        top: 94%;
+    }
+
+    .step {
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .cardvn {
+        width: 125px !important;
+        height: 130px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border-radius: 4px;
+        margin-top: -15px !important;
+        margin-left: -19px;
+        margin-right: -30px;
+    }
+
+    .veg-nonveg-card {
+        margin-left: -317px !important;
+        margin-top: 140px !important;
+    }
+
+    .veg-nonveg-card .veg-nonveg-text {
+        margin-top: -10px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-weight: 50;
+        font-size: 14px;
+        line-height: 28px;
+        color: #646464;
+    }
+
+    .btm-img {
+        display: none;
+    }
+
+    .h3tag {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .ptag {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: -30px;
+        line-height: 24px;
+    }
+
+    .boxtag {
+        margin-left: 1px;
+        font-size: 18px !important;
+    }
+
+    .h5tagg {
+        font-size: 18px;
+        margin-left: -12px;
+        margin-top: -18px;
+    }
+
+    .h6image {
+        width: 200px;
+        margin-left: 400px !important;
+    }
+
+    .imgveg {
+        margin-left: 10px !important;
+    }
+
+    .imgveg,
+    .imgnonveg {
+        margin-top: -2px !important;
+    }
+
+    .counth5 {
+        margin-top: -20px;
+        margin-left: -13px;
+        font-size: 18px;
+    }
+
+    .second {
+        padding-top: -10px;
+    }
+
+    .count-button {
+        font-size: 14px;
+        width: 30px;
+        height: 35px;
+        padding: 0;
+        border: none;
+
+    }
+
+    .h6image {
+        display: none;
+    }
+
+    .count {
+        font-size: 14px;
+    }
+}
+
+/* Responsiveness for 414px */
+@media (max-width:414px) {
+    .h3tag {
+        font-size: 20px !important;
+        margin-left: -30px;
+        margin-top: 25px !important;
+    }
+
+    .cardvn {
+        width: 100%;
+    }
+
+    .progress-bars {
+        display: none;
+    }
+
+    #percentage {
+        display: none;
+    }
+
+    .backbtn {
+        margin-top: -730px;
+        border: 2px solid white !important;
+        width: 100px !important;
+        margin-left: -20px !important;
+
+    }
+
+    #continuebtn {
+        width: 127px !important;
+        margin-left: -90px !important;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .imgcook {
+        margin-left: -30px;
+        width: 22px !important;
+        height: 17px !important;
+        margin-top: -25px;
+    }
+
+    .foot {
+        width: 414px;
+        height: 50px;
+        position: absolute;
+        top: 94%;
+    }
+
+    .step {
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .cardvn {
+        width: 125px !important;
+        height: 130px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border-radius: 4px;
+        margin-top: -15px !important;
+        margin-left: -19px;
+        margin-right: -30px;
+    }
+
+    .veg-nonveg-card {
+        margin-left: -317px !important;
+        margin-top: 140px !important;
+    }
+
+    .veg-nonveg-card .veg-nonveg-text {
+        margin-top: -10px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-weight: 50;
+        font-size: 14px;
+        line-height: 28px;
+        color: #646464;
+    }
+
+    .btm-img {
+        display: none;
+    }
+
+    .h3tag {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .ptag {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: -30px;
+        line-height: 24px;
+    }
+
+    .boxtag {
+        margin-left: 1px;
+        font-size: 18px !important;
+    }
+
+    .h5tagg {
+        font-size: 18px;
+        margin-left: -12px;
+        margin-top: -18px;
+    }
+
+    .h6image {
+        width: 200px;
+        margin-left: 400px !important;
+    }
+
+    .imgveg {
+        margin-left: 10px !important;
+    }
+
+    .imgveg,
+    .imgnonveg {
+        margin-top: -2px !important;
+    }
+
+    .counth5 {
+        margin-top: -20px;
+        margin-left: -13px;
+        font-size: 18px;
+    }
+
+    .second {
+        padding-top: -10px;
+    }
+
+    .count-button {
+        font-size: 14px;
+        width: 30px;
+        height: 35px;
+        padding: 0;
+        border: none;
+
+    }
+
+    .h6image {
+        display: none;
+    }
+
+    .count {
+        font-size: 14px;
+    }
+}
+
+/* Responsiveness for 415-500 */
+@media (min-width: 415px) and (max-width: 500px) {
+    .full{
+        margin-top: 5px;
+    }
+    .h3tag {
+        font-size: 20px !important;
+        margin-left: -30px;
+        margin-top: 25px !important;
+    }
+
+    .cardvn {
+        width: 100%;
+    }
+
+    .progress-bars {
+        display: none;
+    }
+
+    #percentage {
+        display: none;
+    }
+
+    .backbtn {
+        /* margin-top: -730px;
+        border: 2px solid white !important;
+        width: 100px !important;
+        margin-left: -20px !important; */
+        display: none;
+    }
+    .topbackbtn{
+        border:transparent;
+        margin-left: -25px;
+        margin-top: 5px;
+        display: block;
+        color:#ff6d00;
+        background-color: transparent;
+    }
+
+    #continuebtn {
+        width: 127px !important;
+        margin-left: -90px !important;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .imgcook {
+        margin-left: -30px;
+        width: 22px !important;
+        height: 17px !important;
+        margin-top: -25px;
+    }
+
+    .foot {
+        width: 484px;
+        height: 50px;
+        position: absolute;
+        top: 94%;
+    }
+
+    .step {
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .cardvn {
+        width: 125px !important;
+        height: 130px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border-radius: 4px;
+        margin-top: -15px !important;
+        margin-left: -19px;
+        margin-right: -30px;
+    }
+
+    .veg-nonveg-card {
+        margin-left: -317px !important;
+        margin-top: 140px !important;
+    }
+
+    .veg-nonveg-card .veg-nonveg-text {
+        margin-top: -10px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-weight: 50;
+        font-size: 14px;
+        line-height: 28px;
+        color: #646464;
+    }
+
+    .btm-img {
+        display: none;
+    }
+
+    .h3tag {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .ptag {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: -30px;
+        line-height: 24px;
+    }
+
+    .boxtag {
+        margin-left: 1px;
+        font-size: 18px !important;
+    }
+
+    .h5tagg {
+        font-size: 18px;
+        margin-left: -12px;
+        margin-top: -18px;
+    }
+
+    .h6image {
+        width: 200px;
+        margin-left: 400px !important;
+    }
+
+    .imgveg {
+        margin-left: 10px !important;
+    }
+
+    .imgveg,
+    .imgnonveg {
+        margin-top: -2px !important;
+    }
+
+    .counth5 {
+        margin-top: -20px;
+        margin-left: -13px;
+        font-size: 18px;
+    }
+
+    .second {
+        padding-top: -10px;
+    }
+
+    .count-button {
+        font-size: 14px;
+        width: 30px;
+        height: 35px;
+        padding: 0;
+        border: none;
+
+    }
+
+    .h6image {
+        display: none;
+    }
+
+    .count {
+        font-size: 14px;
+    }
+
+}
+
+/* Responsiveness for 500-600 */
+@media (min-width: 500px) and (max-width: 600px) {
+    .full{
+        margin-top: 5px;
+    }
+    .h3tag {
+        font-size: 20px !important;
+        margin-left: -30px;
+        margin-top: 25px !important;
+    }
+
+    .cardvn {
+        width: 100%;
+    }
+
+    .progress-bars {
+        display: none;
+    }
+
+    #percentage {
+        display: none;
+    }
+
+    .backbtn {
+        display: none;
+    }
+    .topbackbtn{
+        border:transparent;
+        margin-left: -25px;
+        margin-top: 5px;
+        display: block;
+        color:#ff6d00;
+        background-color: transparent;
+    }
+
+    #continuebtn {
+        width: 127px !important;
+        margin-left: -90px !important;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .imgcook {
+        margin-left: -30px;
+        width: 22px !important;
+        height: 17px !important;
+        margin-top: -25px;
+    }
+
+    .foot {
+        width: 584px;
+        height: 50px;
+        position: absolute;
+        top: 94%;
+    }
+
+    .step {
+        display: block;
+        margin-top: 3%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .cardvn {
+        width: 125px !important;
+        height: 130px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border-radius: 4px;
+        margin-top: -15px !important;
+        margin-left: -19px;
+        margin-right: -30px;
+    }
+
+    .veg-nonveg-card .veg-nonveg-text {
+        margin-top: -10px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-weight: 50;
+        font-size: 14px;
+        line-height: 28px;
+        color: #646464;
+    }
+
+    .btm-img {
+        display: none;
+    }
+
+    .h3tag {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .ptag {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: -30px;
+        line-height: 24px;
+    }
+
+    .boxtag {
+        margin-left: 1px;
+        font-size: 18px !important;
+    }
+
+    .h5tagg {
+        font-size: 18px;
+        margin-left: -12px;
+        margin-top: -18px;
+    }
+
+    .h6image {
+        color: rgba(255, 109, 0, 1);
+        text-align: center;
+        font-size: 15px;
+        border-radius: 6px;
+        white-space: nowrap;
+        margin-left: 400px !important;
+        background-color: rgba(255, 109, 0, 0.1);
+    }
+
+    .imgveg {
+        margin-left: 10px !important;
+    }
+
+    .imgveg,
+    .imgnonveg {
+        margin-top: -2px !important;
+    }
+
+    .counth5 {
+        margin-top: -50px;
+        margin-left: -1px;
+        font-size: 18px;
+    }
+
+    .second {
+        padding-top: -10px;
+    }
+
+    .count-button {
+        font-size: 14px;
+        width: 30px;
+        height: 35px;
+        padding: 0;
+        border: none;
+
+    }
+
+    .count {
+        font-size: 14px;
+    }
+
+}
+
+/* Responsiveness for 600-700 */
+@media (min-width: 600px) and (max-width: 700px) {
+    .h3tag {
+        font-size: 20px !important;
+        margin-left: -30px;
+        margin-top: -45px !important;
+    }
+
+    .cardvn {
+        width: 100%;
+    }
+
+    .foot {
+        margin-bottom: 1px;
+    }
+
+    .backbtn {
+        left: 4%;
+        width: 107px;
+    }
+
+    #continuebtn {
+        width: 113px;
+        left: 80%;
+        right: 8%;
+    }
+
+    .progress-bars {
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+    #percentage {
+        right: 60%;
+        top: 70px;
+        transform: translateX(50%);
+    }
+
+    .step {
+        display: none;
+    }
+
+    .imgcook {
+        margin-left: -30px;
+        width: 22px !important;
+        height: 17px !important;
+        margin-top: -25px;
+    }
+
+    .cardvn {
+        width: 155px !important;
+        height: 130px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border-radius: 4px;
+        margin-top: -15px !important;
+        margin-left: -19px;
+        margin-right: -30px;
+    }
+
+    .veg-nonveg-card .veg-nonveg-text {
+        margin-top: -10px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-weight: 50;
+        font-size: 14px;
+        line-height: 28px;
+        color: #646464;
+    }
+
+    .btm-img {
+        margin-bottom: 1px;
+        margin-left: 1px;
+        position: fixed;
+        width: 300px;
+        height: 200px;
+    }
+
+    .h3tag {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .ptag {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: -30px;
+        line-height: 24px;
+    }
+
+    .boxtag {
+        margin-left: 1px;
+        font-size: 18px !important;
+    }
+
+    .h5tagg {
+        font-size: 18px;
+        margin-left: -12px;
+        margin-top: -18px;
+    }
+
+    .h6image {
+        color: rgba(255, 109, 0, 1);
+        text-align: center;
+        font-size: 15px;
+        border-radius: 6px;
+        white-space: nowrap;
+        margin-left: 400px !important;
+        background-color: rgba(255, 109, 0, 0.1);
+    }
+
+    .imgveg {
+        margin-left: 10px !important;
+    }
+
+    .imgveg,
+    .imgnonveg {
+        margin-top: -2px !important;
+    }
+
+    .counth5 {
+        margin-top: -50px;
+        margin-left: -1px;
+        font-size: 18px;
+    }
+
+    .second {
+        padding-top: -10px;
+    }
+
+    .count-button {
+        font-size: 14px;
+        width: 30px;
+        height: 35px;
+        padding: 0;
+        border: none;
+
+    }
+
+    .count {
+        font-size: 14px;
+    }
+
+}
+
+/* Responsiveness for 700-833 */
+@media (min-width: 700px) and (max-width: 833px) {
+    .h3tag {
+        font-size: 20px !important;
+        margin-left: -30px;
+        margin-top: -45px !important;
+    }
+
+    .cardvn {
+        width: 100%;
+    }
+
+    .foot {
+        margin-bottom: 1px;
+    }
+
+    .backbtn {
+        left: 4%;
+        width: 107px;
+    }
+
+    #continuebtn {
+        width: 113px;
+        left: 80%;
+        right: 8%;
+    }
+
+    .progress-bars {
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+    #percentage {
+        right: 60%;
+        top: 70px;
+        transform: translateX(50%);
+    }
+
+    .step {
+        display: none;
+    }
+
+    .imgcook {
+        margin-left: -30px;
+        width: 22px !important;
+        height: 17px !important;
+        margin-top: -25px;
+    }
+
+    .cardvn {
+        width: 155px !important;
+        height: 130px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border-radius: 4px;
+        margin-top: -15px !important;
+        margin-left: -19px;
+        margin-right: -30px;
+    }
+
+    .veg-nonveg-card .veg-nonveg-text {
+        margin-top: -10px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        font-weight: 50;
+        font-size: 14px;
+        line-height: 28px;
+        color: #646464;
+    }
+
+    .btm-img {
+        margin-bottom: 1px;
+        margin-left: 1px;
+        position: fixed;
+        width: 300px;
+        height: 200px;
+    }
+
+    .h3tag {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .ptag {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: -30px;
+        line-height: 24px;
+    }
+
+    .boxtag {
+        margin-left: 1px;
+        font-size: 18px !important;
+    }
+
+    .h5tagg {
+        font-size: 18px;
+        margin-left: -12px;
+        margin-top: -18px;
+    }
+
+    .h6image {
+        color: rgba(255, 109, 0, 1);
+        text-align: center;
+        font-size: 15px;
+        border-radius: 6px;
+        white-space: nowrap;
+        margin-left: 400px !important;
+        background-color: rgba(255, 109, 0, 0.1);
+    }
+
+    .imgveg {
+        margin-left: 10px !important;
+    }
+
+    .imgveg,
+    .imgnonveg {
+        margin-top: -2px !important;
+    }
+
+    .counth5 {
+        margin-top: -50px;
+        margin-left: -1px;
+        font-size: 18px;
+    }
+
+    .second {
+        padding-top: -10px;
+    }
+
+    .count-button {
+        font-size: 14px;
+        width: 30px;
+        height: 35px;
+        padding: 0;
+        border: none;
+
+    }
+
+    .count {
+        font-size: 14px;
+    }
+
+}
+
+/* Responsiveness for 835-1000 */
+@media (min-width: 835px) and (max-width: 1000px) {
+    .full {
+        width: 74%;
+        margin-top: 50px;
+        margin-left: 170px;
+    }
+
+    .spanorange {
+        color: #ff6d00;
+        padding: 8px;
+    }
+
+    .cardvn {
+        width: 145px !important;
+        height: 149px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border: 1px solid rgba(158, 158, 158, 1);
+        border-radius: 4px;
+    }
+
+    .cardvn.clicked {
+        border: 1px solid #ff6d00;
+        box-shadow: 3px 2px 8px 0 #f8cfa2;
+        font-weight: bold;
+    }
+
+    .h6image {
+        color: rgba(255, 109, 0, 1);
+        padding: 8px;
+        width: 23%;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 6px;
+        background-color: rgba(255, 109, 0, 0.1);
+        white-space: nowrap;
+    }
+
+    .count-button {
+        font-size: 24px;
+        width: 45px;
+        height: 45px;
+        padding: 0;
+        border: none;
+    }
+
+    .count {
+        font-size: 20px;
+    }
+
+
+    .tdtag {
+        width: 25%;
+
+    }
+
+    .tdtag span {
+        width: 20%;
+        padding: 10%;
+        color: #FF6D00;
+    }
+
+    .btm-img {
+        width: 450px;
+        height: 170px;
+        bottom: 80px;
+        left: 4px;
+        position: fixed;
+    }
+
+    .h3tag {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .h5tagg {
+        font-weight: 550;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .backbtn {
+        background-color: white;
+        border: 2px solid #FF6D00 !important;
+        color: #FF6D00;
+        width: 137px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 8%;
+        height: 44px;
+        border-radius: 8px;
+    }
+
+    #continuebtn {
+        background-color: #FF6D00;
+        color: white;
+        border: 2px solid #FF6D00;
+        width: 175px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 125px;
+        border-radius: 8px;
+        height: 44px;
+        text-decoration: none;
+    }
+
+    .progress-bars {
+        width: 400px;
+        max-width: 100%;
+        height: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #eeeeee;
+        overflow: hidden;
+        position: absolute;
+        left: 25%;
+    }
+
+
+    .progress {
+        height: 100%;
+        background-color: #F7D38C !important;
+        width: 40%;
+    }
+
+    #percentage {
+        position: absolute;
+        font-weight: 500;
+        color: #424242;
+        top: 110%;
+        transform: translateY(-50%);
+        margin-left: 10%;
+    }
+
+    .backbtn:hover {
+        background-color: white;
+        border: 2px solid #FF6D00;
+        color: #FF6D00;
+    }
+
+    .foot {
+        box-shadow: 11px 3px 11px 3px rgba(12, 11, 11, 0.07);
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: white;
+    }
+
+    .step {
+        display: none;
+    }
+
+    .boxtag {
+        color: #666565;
+    }
+
+}
+
+/* Responsiveness for 1000-1450 */
+@media (min-width: 1000px) and (max-width: 1450px) {
+    .full {
+        width: 74%;
+        margin-top: 60px;
+        margin-left: 200px;
+    }
+
+    .spanorange {
+        color: #ff6d00;
+        padding: 8px;
+    }
+
+    .cardvn {
+        width: 170px !important;
+        height: 150px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        border: 1px solid rgba(158, 158, 158, 1);
+        border-radius: 4px;
+    }
+
+    .cardvn.clicked {
+        border: 1px solid #ff6d00;
+        box-shadow: 3px 2px 8px 0 #f8cfa2;
+        font-weight: bold;
+    }
+
+    .h6image {
+        color: rgba(255, 109, 0, 1);
+        padding: 8px;
+        width: 23%;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 6px;
+        background-color: rgba(255, 109, 0, 0.1);
+        white-space: nowrap;
+    }
+
+    .count-button {
+        font-size: 24px;
+        width: 45px;
+        height: 45px;
+        padding: 0;
+        border: none;
+    }
+
+    .count {
+        font-size: 20px;
+    }
+
+
+    .tdtag {
+        width: 25%;
+
+    }
+
+    .tdtag span {
+        width: 20%;
+        padding: 10%;
+        color: #FF6D00;
+    }
+
+    .btm-img {
+        width: 400px;
+        height: 160px;
+        bottom: 80px;
+        left: 4px;
+        position: fixed;
+    }
+
+    .h3tag {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .h5tagg {
+        font-weight: 550;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .backbtn {
+        background-color: white;
+        border: 2px solid #FF6D00 !important;
+        color: #FF6D00;
+        width: 137px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 8%;
+        height: 44px;
+        border-radius: 8px;
+    }
+
+    #continuebtn {
+        background-color: #FF6D00;
+        color: white;
+        border: 2px solid #FF6D00;
+        width: 175px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 125px;
+        border-radius: 8px;
+        height: 44px;
+        text-decoration: none;
+    }
+
+    .progress-bars {
+        width: 650px;
+        max-width: 100%;
+        height: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #eeeeee;
+        overflow: hidden;
+        position: absolute;
+        left: 23%;
+    }
+
+
+    .progress {
+        height: 100%;
+        background-color: #F7D38C !important;
+        width: 40%;
+    }
+
+    #percentage {
+        position: absolute;
+        font-weight: 500;
+        color: #424242;
+        top: 110%;
+        transform: translateY(-50%);
+        margin-left: 10%;
+    }
+
+    .backbtn:hover {
+        background-color: white;
+        border: 2px solid #FF6D00;
+        color: #FF6D00;
+    }
+
+    .foot {
+        box-shadow: 11px 3px 11px 3px rgba(12, 11, 11, 0.07);
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: white;
+    }
+
+    .step {
+        display: none;
+    }
+
+    .boxtag {
+        color: #666565;
+    }
+
+}

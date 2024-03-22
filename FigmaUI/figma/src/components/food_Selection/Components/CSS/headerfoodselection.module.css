@@ -1,0 +1,18 @@
+.head{
+    margin-left: 8%;
+    margin-top: 1%;
+    /* margin-bottom: 0.5rem; */
+}
+.nav{
+    box-shadow: 3px 2px 8px 0 rgba(12, 11, 11, 0.07);
+}
+
+@media (max-width: 834px) {
+    .head{
+        margin-left:5%;
+    }
+    .nav{
+        width: auto;
+        
+    }
+  }

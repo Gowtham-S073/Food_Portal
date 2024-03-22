@@ -1,0 +1,263 @@
+/* Tab */
+@media only screen and (max-width: 1194px)and (min-width: 800px) {
+
+      .there {
+            width: 217px;
+            height: 32px;
+            top: 0px;
+            left: 32px;
+
+            font-size: 32px !important;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+
+
+      }
+
+      .plate-pagination {
+            width: 739px;
+            height: 32px;
+            top: 220px;
+            left: 34px;
+            padding: 0px 200px 0px 0px;
+
+      }
+
+      .orange {
+            width: 354px;
+            height: 31px;
+            margin-top: 230px;
+            left: 33px;
+
+      }
+
+      .grp {
+            width: 31px;
+            height: 31px;
+            left: 33px;
+
+      }
+
+      .platesize {
+
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+
+      }
+
+      .plate-card-container {
+            width: 771px;
+            margin-top: 310px;
+            gap: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            left: 32px;
+      }
+
+      .plate-card {
+
+            width: 233px;
+            height: 305px;
+            left: 32px;
+
+
+      }
+
+      .plate-card-header {
+            height: 32px;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: center;
+
+
+
+
+
+      }
+
+      .plate-card-content {
+            width: 165px;
+            height: 77px;
+            top: 445px;
+            margin-left: 36px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+
+
+      }
+
+      .plate-card-footer {
+            width: 233px;
+            height: 84px;
+            margin-top: 75px !important;
+            left: 32px;
+
+
+
+
+
+      }
+
+      .plate-radio {
+            margin-top: 1000px;
+            height: 100px;
+            left: 36px;
+
+      }
+
+      .allergy-show {
+            top: 1090px;
+            left: 450px;
+
+
+
+      }
+
+      .allergy-container {
+            width: 557px;
+            height: 650px;
+            left: 60px;
+      }
+
+      .allergy-scroll-container {
+            display: flex;
+            justify-content: flex-start;
+            /* Align text to the left */
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            list-style: none;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            height: 60px;
+            margin-top: 0px;
+            padding: 0px;
+            width: 270px;
+            white-space: nowrap;
+            /* Keep the text in a single line */
+            text-overflow: ellipsis;
+            /* Add ellipsis (...) for hidden text */
+
+      }
+
+      .allergy-text {
+            margin-top: 10px;
+            margin-left: 10px;
+      }
+
+      #modal-top {
+
+            width: 557px;
+
+      }
+
+      .allergy-others textarea {
+            width: 530px;
+      }
+
+      .modal-btn {
+
+            left: 300px;
+
+      }
+
+      .bg2 {
+            display: none;
+      }
+
+      .plate-steps {
+            display: none;
+      }
+
+      .plate-foot {
+            width: 834px;
+            height: 72px;
+            width: 834px;
+      }
+
+      button.iphone-back-button {
+            display: none;
+      }
+
+      button.back-button {
+
+            width: 102px;
+            height: 40px;
+            left: 32px;
+            padding: 8px 20px 8px 20px;
+            margin-top: -100px;
+
+      }
+
+      .back-button-text {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+      }
+
+      .plate-progress {
+            width: 460px;
+            height: 34px;
+            top: 31px;
+            left: 170px;
+
+      }
+
+      .progress-container {
+            margin-top: 0px;
+            left: 200px;
+            width: 460px;
+            height: 8px;
+            top: 31px;
+            left: 170px;
+
+      }
+
+
+
+      .progress-percentage {
+            width: 33px;
+            height: 22px;
+            margin-top: 5px;
+            left: 413px;
+
+
+
+      }
+
+      .continue-button {
+            width: 134px;
+            height: 40 px;
+            left: 568px;
+            top: -60px;
+            background-color: aquamarine;
+            padding: 8px 20px 8px 20px;
+
+
+      }
+
+      .back-button-text {
+            width: 95px;
+            height: 24px;
+            gap: 6px;
+
+      }
+
+      .iphone-back-button {
+            display: none;
+      }
+
+}

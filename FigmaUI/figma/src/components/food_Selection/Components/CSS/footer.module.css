@@ -1,0 +1,209 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 11px 3px 11px 3px rgba(12, 11, 11, 0.07);
+    padding: 25px 150px;
+    margin: 0;
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .btn {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #FF6D00;
+    color: #FF6D00;
+    width: 137px;
+    padding: 6px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .progress_wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px;
+    position: relative;
+  }
+  
+  .progress_bar {
+    width: 100%;
+    height: 9px;
+    background-color: #eeeeee;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #F7D38C;
+    width: 80%;
+  }
+  
+  .percentage_text {
+    position: absolute;
+    bottom: -30px;
+    left: 75%;
+    font-weight: 500;
+    background-color: #fff;
+    color: #424242;
+    white-space: nowrap;
+    margin-left: 10px;
+  }
+  
+  .btn1 {
+    background-color: #FF6D00;
+    color: white;
+    border: 2px solid #FF6D00;
+    padding: 6px 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 12px 19px 0px rgba(255, 109, 0, 0.19);
+  }
+  
+  .buttondisabledstyle {
+    background-color: #C1C8CF;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: not-allowed;
+    border-style: none;
+    box-shadow: none;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    border: 2px solid #FF6D00;
+    color: #FF6D00;
+  }
+  
+  .step_text {
+    display: none; /* Hide the step text by default */
+  }
+  
+  .mobile_step_text {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 700px) {
+    .footer {
+      justify-content: center;
+      padding: 25px;
+    }
+
+    .whichCategorystep {
+        color: var(--selected);
+    }
+    
+    .continue_step_wrapper {
+        display: flex;
+         /* Change to column layout for mobile */
+        align-items: center;
+        gap: 300px; /* Adjust the gap value as needed */
+      }
+    
+    /* Add space between step text and button */
+    .step_text::after {
+      content: ' '; /* Add an empty content to create a space */
+      display: inline-block;
+      width: 10px; /* Adjust the width as needed */
+    }
+  
+    .btn,
+    .progress_wrapper {
+      display: none; /* Hide the back button and progress bar */
+    }
+  
+    .mobile_step_text {
+      display: flex; /* Show the step text */
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footerContainer {
+      padding: 0 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .btn {
+      margin-right: 5px;
+    }
+  
+    .progress_wrapper {
+      margin: 0 5px;
+    }
+  
+    .percentage_text {
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .footer {
+      padding: 25px 100px;
+    }
+  
+    .progress_wrapper {
+      margin: 0 50px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .footer {
+      padding: 15px 50px;
+    }
+  
+    .progress_wrapper {
+      margin: 0 30px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .footer {
+        padding: 15px 0px;
+      }
+    .continue_step_wrapper {
+        display: flex;
+        /* Change to column layout for mobile */
+        align-items: center;
+        gap: 230px;
+    }
+  }
+  @media (max-width: 530px) {
+    .footer {
+        padding: 15px 10px;
+      }
+    .continue_step_wrapper {
+        display: flex;
+        /* Change to column layout for mobile */
+        align-items: center;
+        gap: 150px; /* Adjust the gap value as needed */
+    }
+  }
+
+  @media (max-width:490px) {
+    .footer {
+        padding: 10px 10px;
+      }
+    .continue_step_wrapper {
+        display: flex;
+        /* Change to column layout for mobile */
+        align-items: center;
+        gap: 100px; /* Adjust the gap value as needed */
+    }
+  }
+
+  
+  

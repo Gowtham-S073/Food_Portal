@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logoheader {
+    height: 72px;
+
+}
+
+.mobilephonebutton {
+    display: none;
+}
+
+.bodyofsummary {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.logoandheadingsummary {
+
+    display: flex;
+    align-items: center;
+    width: 177px;
+    height: 33px;
+    top: 121px;
+    left: 150px;
+
+}
+
+.Summarytext {
+    padding-bottom: 5px;
+    padding-left: 9px;
+}
+
+.orderdetailsinsummary {
+    display: flex;
+    padding-top: 30px;
+    gap: 5px
+}
+
+.Informationinsummary {
+    padding-right: 36px;
+}
+
+.contactdetailsinsummary {
+    padding-top: 30px;
+}
+
+.ContactTextinSummary {
+    font-size: 27px;
+    font-weight: 500;
+    color: #424242;
+
+}
+
+.inputdetail {
+
+    padding-top: 20px;
+}
+
+.rowsininputdetails {
+    display: flex;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: linear-gradient(0deg, #9E9E9E, #9E9E9E);
+}
+
+.delivery-address-summary input {
+    max-width: 50%;
+
+}
+
+.delivery-address-summary {
+    margin-top: 20px;
+}
+
+
+.delivery-address-summary label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.input-container-summary {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-container-summary label {
+    margin-bottom: 5px;
+}
+
+.right-fooditems {
+    margin-left: 10px;
+    width: 100%;
+}
+
+
+
+
+.rowsininputdetails {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input-container-summary {
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container-summary label {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.contactboxforipad {
+    width: 100%;
+    height: 37px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.inputboxesinsummary {
+    width: 100%;
+    height: 37px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.delivery-address-summary textarea {
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.required {
+    color: red;
+    margin-left: 4px;
+    font-size: 20px;
+
+
+}
+
+.ordertextinsummary {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #424242;
+
+}
+
+.billingtextinsummary {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #424242;
+}
+
+/* TABLE CSS */
+
+.tablesinsummary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+
+}
+
+.orderdetailstableinsummary {
+    flex: 0 0 65%;
+    margin-right: 20px;
+}
+
+.billingdetailstableinsummary {
+    flex: 1;
+
+}
+
+.ordertextinsummary,
+.billingtextinsummary {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.billing-details-table {
+    margin-top: 16px;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.order-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    margin-top: 16px;
+}
+
+.order-details-table th,
+.order-details-table td,
+.billing-details-table th {
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.order-details-table th:nth-child(1) {
+    width: 50%;
+
+}
+
+.order-details-table th:nth-child(2),
+.order-details-table th:nth-child(3),
+.order-details-table th:nth-child(4) {
+    width: 16.67%;
+
+}
+
+
+.tableheaderinsummary th {
+    background-color: #d3d3d3;
+    color: #000;
+    border: none;
+}
+
+.text-right-summary {
+    padding-left: 20px;
+}
+
+.orderdetailstableinsummary .tableheaderinsummary th {
+    padding: 11px 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+
+.billingdetailstableinsummary .tableheaderinsummary th {
+    padding: 11px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.tablebodyinsummary {
+    text-align: center;
+}
+
+
+.text-right-billing {
+    text-align: center;
+    padding: 23px;
+    border: none;
+
+}
+
+.text-right-billing-total {
+    text-align: left;
+    padding-left: 48px;
+}
+
+
+.orderdetailstableinsummary .tablebodyinsummary td {
+    text-align: center;
+}
+
+
+.text-right-billing {
+    text-align: left;
+    padding-left: 48px;
+    padding-top: 30px;
+
+}
+
+.textinbillingtablesummary {
+    margin-top: 30px;
+}
+
+/* FOOTER */
+
+
+.btnsummary {
+    background-color: white;
+    border: 2px solid #FF6D00;
+    color: #FF6D00;
+    width: 119px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 8%;
+    height: 37px;
+    border-radius: 8px;
+}
+
+#btn1summary {
+    background-color: #FF6D00;
+    color: white;
+    border: 2px solid #FF6D00;
+    width: 155px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 8%;
+    border-radius: 8px;
+    height: 37px;
+}
+
+.btnsummary:hover {
+    background-color: white;
+    border: 2px solid #FF6D00;
+    color: #FF6D00;
+}
+
+.ft {
+    box-shadow: 11px 3px 11px 4px rgba(12, 11, 11, 0.07);
+    width: 100%;
+    height: 78px;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    background-color: white;
+}
+
+.information1,
+.information2 {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    font-size: 21px;
+}
+.homebuttonsummary{
+    background-color: #FF6D00;
+    color: white;
+    border: 2px solid #FF6D00;
+    width: 160px;
+    position: absolute;
+    border-radius: 8px;
+    height: 85px;
+
+}
+.homebuttonsummary:hover {
+    background-color: white;
+    border: 2px solid #FF6D00;
+    color: #FF6D00;
+}
+
+.bold{
+    font-weight: bold;
+    margin-left: 5px;
+    padding-left: 20px;
+}
+
+/* / * MEDIA QUERIES  --- IPAD LAYOUT */
+@media only screen and (max-width: 834px) and (max-height: 1194px) {
+
+    .logoheader {
+        height: 72px;
+        width: 100%;
+    }
+
+    .bodyofsummary {
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .orderdetailsinsummary {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .information1,
+    .information2 {
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+        font-size: 21px;
+    }
+
+    .inputdetail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rowsininputdetails {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .contactboxforipad {
+        width: 835px;
+    }
+
+    .input-container-summary {
+        flex-basis: calc(50% - 20px);
+
+    }
+
+    .tablesinsummary {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .billingdetailstableinsummary {
+        margin-top: 20px;
+    }
+
+    .ft {
+        height: 78px;
+        position: fixed;
+        right: 0;
+        bottom: 0px;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+    .order-details-table th:nth-child(1) {
+        width: 0px;
+    
+    }
+    
+    .order-details-table th:nth-child(2),
+    .order-details-table th:nth-child(3),
+    .order-details-table th:nth-child(4) {
+        width: 10%;
+    
+    }
+    .order-details-table {
+        width: 100%;
+        border-collapse: collapse;
+        border: none;
+        margin-top: 16px;
+    }
+
+    .mobilephonebutton {
+        display: block;
+        margin-top: 10px;
+        background-color: white;
+        text-transform: none;
+        color: #FF6D00;
+        border: none;
+        margin-left: 20px;
+        font-size: 23px;
+        padding-bottom: 3px;
+
+    }
+
+    .bodyofsummary {
+        margin-top: 20px;
+    }
+
+    .tablesinsummary {
+        overflow-x: auto;
+    }
+
+    .order-details-table,
+    .billing-details-table {
+        width: 100%;
+        table-layout: auto;
+    }
+
+    .tableheadertextinsummary {
+        font-size: 12px;
+    }
+
+    .order-details-table,
+    .billing-details-table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .orderdetailstableinsummary {
+        flex: 1;
+        margin-right: 0;
+    }
+
+    .order-details-table,
+    .billing-details-table {
+        width: 100%;
+        width: 100%;
+        border-collapse: collapse;
+        border: none;
+        margin-top: 16px;
+    }
+
+    .text-right-billing {
+        padding-left: 17px;
+        padding-top: 20px;
+    }
+
+    .text-right-billing-total {
+        padding-left: 22px;
+    }
+
+    .ft {
+        height: 78px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+    }
+
+    .contactboxforipad {
+        width: 325px;
+    }
+
+    .inputboxesinsummary {
+        width: 93%;
+
+    }
+
+    .rowsininputdetails {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .information1,
+    .information2 {
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+        font-size: 10px;
+    }
+
+    .orderdetailsinsummary {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ContactTextinSummary {
+        font-size: 15px;
+        font-weight: 500;
+        color: #424242;
+    }
+
+    .rowsininputdetails {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .text-right-billing {
+        text-align: left;
+        padding-left: 17px;
+        padding-top: 20px;
+    }
+
+    .text-right-billing-total {
+        text-align: left;
+        padding-left: 22px;
+    }
+
+    .ft {
+        height: 78px;
+        position: fixed;
+        right: 0;
+        bottom: 0px;
+        background-color: white;
+    }
+
+    .btnsummary {
+        display: none;
+    }
+
+
+
+}

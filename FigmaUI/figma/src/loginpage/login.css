@@ -1,0 +1,350 @@
+.hut {
+    width: 319px;
+    height: 126px;
+    padding-left: 40px;
+    
+  }
+  
+  .hut {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hut img {
+    margin-right: 10px; 
+  }
+  
+  .loginButton,
+  .signupButton {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .loginButton {
+  background-color: transparent; 
+  color: black;
+  border: 1.5px solid transparent; 
+  transition: border-color 0.3s; 
+}
+
+.loginButton:hover {
+  border-color: #ff6d00; 
+}
+
+  
+  .signupButton {
+    background-color: #ff6d00; 
+  }
+  
+  .signupButton:hover {
+    background-color: #ff9341; /* Set the background color to orange when the signup button is hovered */
+  }
+  
+  .splitContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Set the height to 100% of the viewport height (adjust as needed) */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .leftPart,
+  .rightPart {
+    flex: 1; /* Each part takes an equal amount of space */
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .hutLogo {
+     /* Ensure the image doesn't exceed its container's width */
+     /* width: 747px; */
+     height: 914px;    display: flex;
+    position: relative;
+    /* bottom: 160px; */
+    /* height: 500px; */
+    /* left: 188px; */
+
+  }
+  
+
+  .logbut{
+        display: flex;
+        height: 72px;
+        width: 506px;
+        position: relative;
+        /* top: -195px; */
+        bottom: 270px;
+        left: 564px;
+      }
+
+
+    .loglogo {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      /* Add any other styles as needed */
+    }
+    
+
+
+  .changingText{
+    display: flex;
+    position: relative;
+    top: -112px;
+    left: 85px;  }
+
+
+
+
+
+
+  .sub{
+    color: #ff6d00;
+    position: relative;
+    display: flex;
+    bottom: 80px;
+    left: 79px;
+    width: 589px;  }
+
+
+  .inputBoxContainer{
+    display: flex;
+    position: relative;
+    /* bottom: -82px; */
+    left: 83px;
+    height: 90px;
+    /* width: 463px; */
+    /* width: 400px; */
+    bottom: 66px;
+
+
+
+  }
+
+  .squareButton {
+    width: 112px;
+    background-color: rgb(255, 212, 160);
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .squareButton:hover {
+    background-color: rgb(255, 194, 82); /* Set the background color to orange when the button is hovered */
+  }
+  
+
+
+  .desimg{
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 699px;
+  }
+
+
+  .inputBoxContainer input{
+    width: 400px;
+    font-size: 22px;
+    padding-left: 30px;
+  }
+
+.inputBoxContainer button{
+  width: 131px;
+  margin-left: 29px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+
+ /* Add these styles for the sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: hsl(51, 100%, 92%);
+  padding-top: 60px;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.sidebar a {
+  padding: 16px 8px; /* Adjusted padding for more spacing */
+  text-decoration: none;
+  font-size: 20px; /* Reduced font size for better readability */
+  color: #818181;
+  display: block;
+  transition: color 0.3s; /* Changed transition property to only color */
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 12px; /* Adjusted top value to vertically center the close button */
+  right: 16px; /* Adjusted right value for close button alignment */
+  font-size: 28px; /* Reduced font size for the close button */
+}
+
+/* This class will be used to show the sidebar */
+.sidebar.active {
+  width: 550px;
+}
+
+
+
+
+.signUpDrawerRoute{
+  margin-left: 245px;
+  margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+/* CSS */
+.hutLogo {
+  /* Set width and height as needed */
+ 
+
+  /* Add animation properties */
+  animation-name: spin;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+  @media screen and (max-width: 834px) {
+    .desktop {
+      max-width: 869px;
+      max-height: 900px;
+  
+      padding-left: 0px;
+    }
+
+    .rightPart{
+      display: none;
+    }
+
+    .splitContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      /* padding: 20px; */
+      overflow-x: hidden;
+  }
+
+  .desimg{
+    margin-top: 106px;
+
+  }
+  }
+
+
+
+  @media screen and (min-width: 400px) and (max-width:500px) {
+   
+    .changingText {
+      display: flex;
+      position: relative;
+      top: -112px;
+      left: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  .logbut {
+      display: flex;
+      height: 72px;
+      width: 506px;
+      position: relative;
+      /* top: -195px; */
+      bottom: 193px;
+      left: 82px;
+  }
+  
+  
+  
+  
+  .sub {
+      color: #ff6d00;
+      position: relative;
+      display: flex;
+      bottom: 80px;
+      left: 14px;
+      width: 589px;
+  }
+
+  .signupDrawer{
+    width: 366px !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    overflow-y: hidden; 
+  }
+
+  .Cookimage{
+    height: 260px !important;
+    width: 307px !important;
+    margin-top: 96px;
+    margin-left: 10px !important;
+    overflow-x: hidden !important;
+  }
+
+  .SignUpButton{
+    margin-left: 32px !important;
+  }
+  .SignTitle{
+    margin-left: 36px !important;
+  }
+
+  .LoginDrawer{
+    width: 366px !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    overflow-y: hidden; 
+  }
+
+  .LoginButton{
+    margin-left: 32px !important;
+
+  }
+
+  .logintitle{
+    margin-left: 36px !important;
+
+  }
+
+  .LoginImage{
+    height: 370px !important;
+    width: 343px !important;
+    margin-top: 96px;
+    margin-left: -2px !important;
+    overflow-x: hidden !important;
+  }
+
+  }

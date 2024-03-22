@@ -1,0 +1,182 @@
+.add{
+    /* position: ; */
+width: 127px;
+height: 32px;
+left: 200px;
+top: 122px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 32px;
+}
+.btn{
+    margin-left: 150px;
+    
+}
+.body{
+    display:flex;
+    justify-content: center;
+}
+.col{
+    font-family: 'Poppins';
+    height: rem;
+}
+.card-title{
+    font-weight:500;
+    font-size: 20px;
+}
+.av{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+}
+
+.checkbox{
+       transform: scale(1.5);
+    width: 39px;
+    background-color: brown;
+    color: brown;
+    
+}
+.addon{
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+margin-left: 25rem;
+}
+.head{
+    background: #FFFFFF;
+box-shadow: 0px 3px 11px rgba(86, 86, 86, 0.07);
+
+height: 72px;
+left: 0px;
+top: 0px;
+}
+.container{
+    justify-content: center;
+}
+.img{
+    margin-left: 6rem;
+}
+.wrapper{
+    min-width:80px;
+    max-height: 50px;
+    align-items: center;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 14px;
+    left: 212px;
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 0;
+    
+  }
+  .wrapper span{
+    width: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+   
+  }
+  .wrapper span.num{
+    font-size: 20px;
+    
+  }
+  .wrapper span.minus, .wrapper span.plus{
+      background-color: #F7F7F7;
+      width:50px;
+      color:black;
+  }
+
+  footer */
+  #btn{
+    background-color: white;
+    border:2px solid #FF6D00;
+    color:#FF6D00;
+    width:120px;
+    top:860px;
+    left:130px;
+    position: absolute;
+  }
+  /* .progress{
+    top:915px;
+    left:300px;
+    background-color:#eeeeee;
+    width:60%;
+    height:1%;
+    position: absolute;
+  }
+  .progress-bar{
+    top:820px;
+    left:300px;
+    background-color: #F7D38C;
+  }
+  h6{
+    position: absolute;
+    top: 875px;
+    left:28%;
+    font-weight: 500;
+  } */
+  #btn1{
+    background-color: #FF6D00;
+    color:white;
+    border:2px solid #FF6D00;   
+    width:120px;
+    top:890px;
+    left:1000px;
+    position: absolute;
+  }
+  
+  #btn:hover{
+    background-color: rgb(247, 244, 244);
+    border:2px solid #FF6D00;
+    color:#FF6D00;
+  }
+  #btn1:hover{
+    background-color: #FF6D00;
+    color:white;
+    border:2px solid #FF6D00; 
+    
+  }
+  
+  a:hover{
+    text-decoration: none;
+    color: #F7F7F7;
+  }
+  a:link, a:visited {
+   
+    color: rgb(255, 255, 255);
+  
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

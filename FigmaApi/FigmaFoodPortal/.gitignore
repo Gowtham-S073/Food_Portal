@@ -1,0 +1,40 @@
+# macOS system file
+.DS_Store
+
+# .NET Core build and output folders
+FigmaFoodPortal/bin
+FigmaFoodPortal/obj
+FoodPortalTestProject/bin
+FoodPortalTestProject/obj
+
+# .NET Core artifacts
+*.dll
+*.exe
+*.pdb
+*.userprefs
+*.bak
+
+# Visual Studio files
+.vscode/
+.vs/
+.ntvs/
+*.njsproj
+*.sln
+*.sw?
+
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+
+# Ignore .vsidx files
+*.vsidx
+
+# Ignore specific files with these extensions
+*.dtbcache.v2
+*.futdcache.v2
+*.suo
+figmafoodportal.metadata.v5.2
+figmafoodportal.projects.v5.2
+*.assets.cache
+*.cache
+*/FigmaFoodPortal.dll

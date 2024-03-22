@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+  <title>Document</title>
+  <link rel="stylesheet" href="submit.css">
+</head>
+
+<body>
+  <header class="head">
+    <div class="img">
+      <img src="Screenshot (20).png " width="150px" height="55px" alt="logo">
+    </div>
+  </header><br>
+    <div class="add">
+      <h3 style="margin-left: 100px; width: 10rem;" class="addon"> <img src="Group icon.png"> Add ons </h3>
+    </div>
+
+
+  <div class="container" style="margin-top: 3rem;">
+    <div class="row row-cols-1 row-cols-lg-4 g-2 g-lg-3">
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="Rectangle 166 spoon.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 150rem; background-color:white; ;" >$ 01.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+            <script >
+             const plus = document.querySelector(".plus"),
+              minus = document.querySelector(".minus"),
+              num = document.querySelector(".num");
+              let a = 1;
+              plus.addEventListener("click", ()=>{
+                a++;
+                a = (a < 10) ? "0" + a : a;
+                num.innerText = a;
+              });
+          
+              minus.addEventListener("click", ()=>{
+                if(a > 1){
+                  a--;
+                  a = (a < 10) ? "0" + a : a;
+                  num.innerText = a;
+                }
+              });
+          
+            </script>
+
+            <h4 class="card-title"><input type="checkbox" class="checkbox"> Spoon</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+            
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="Rectangle 167 bana leaf.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >$ 03.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+            
+
+            <h4 class="card-title"><input class="checkbox" type="checkbox">Banana leaf</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+
+            <body>
+              <!-- <input type=button value="+" onclick="button1()" />
+                        <input type=button value="-" onclick="button2()" /> -->
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="Rectangle 167 leaf plate.png" alt="Card image" style="width:100%">
+          
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >02.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+            
+
+            <h4 class="card-title"><input class="checkbox" type="checkbox">Paper plate</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+            <div class="col-lg-2">
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="knife.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >$ 01.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <h4 class="card-title"><input type="checkbox" class="checkbox">Knife</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="fork.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >02.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <h4 class="card-title"><input class="checkbox" type="checkbox">Fork</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="candles.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >$ 02.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <h4 class="card-title"><input class="checkbox" type="checkbox">Candles</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="tables.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >$ 02.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <h4 class="card-title"><input type="checkbox" class="checkbox">Table cloth</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="paper cup.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 120rem; background-color:white; ;" ></h1>
+            <div class="card-img-overlay">
+              <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >02.99</h1>
+              
+            </div>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <h4 class="card-title"><input type="checkbox" class="checkbox">paper Cup</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="ssssssss.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 100rem; background-color:white; ;" >02.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <h4 class="card-title"><input type="checkbox" class="checkbox">Table cloth</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="width:300px">
+          <img class="card-img-top" src="91to3mOxRZL 1.png" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h1 class="card-title" style="margin-left: 12rem; margin-bottom: 120rem; background-color:white; ;" >02.99</h1>
+            
+          </div>
+          <div class="card-body">
+            <div class="wrapper">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <h4 class="card-title"><input type="checkbox" class="checkbox">Service boy</h4>
+            <p class="card-text"></p>
+            <p class="av"> <img src="Frame 9200.png"> Available</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+  </header>
+</body>
+
+   <footer>
+    <a href="./../AdditionalMenu.html">
+          <button type="button" class="btn">&#60; Back</button>
+    </a>
+    <div class="progress" style="color:orange;">
+    
+    
+    <a href="./../AdditionalMenu.html">
+    <button type="button" class="btn" id="btn1">Add &#62;</button>
+    </a>
+  </footer> 
+  
+
+
+
+
+    
+
+
+</html>

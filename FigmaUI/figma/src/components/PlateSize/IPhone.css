@@ -1,0 +1,361 @@
+/* media query */
+@media only screen and (max-width: 500px) and (min-width: 375px) {
+/* back button */
+      button.iphone-back-button {
+            display: block;
+            height: 44px;
+            margin-left: 16px !important;
+            margin-top: 18px;
+            gap: 6px;
+            text-decoration: none !important;
+            color: #ff6d00;
+      }
+  
+      /* Almost  there */
+      .there {
+            margin-top: 90px;
+            left: 16px;
+            width: 180px;
+            height: 32px;
+
+      }
+
+   .plate-pagination{
+      position: absolute;
+      width: 333px;
+      color: rgba(100, 100, 100, 1);
+font-size: 13px;
+height: 53px;
+top: 185px;
+left: 16px;
+
+   }
+
+      /* Plate Size? */
+      .orange {
+            width: 310px;
+            height: 32px;
+            top: 18px;
+            left: 16px;
+            color: rgba(66, 66, 66, 1);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-top: 260px;
+
+      }
+
+      .platesize {
+            margin-left: 30px;
+            color: rgba(66, 66, 66, 1);
+            font-size: 18px;
+
+
+      }
+
+      /* Card */
+      .plate-card-container {
+            width: 344px;
+            margin-top: 300px;
+            gap: 20px;
+            display: flex;
+
+            flex-wrap: wrap;
+            left: 16px;
+
+      }
+      .grp{
+            width: 24px;
+            height: 24px;
+      }
+
+      .plate-card {
+            width: 162px;
+            height: 317px;
+
+
+      }
+
+      .plate-card-header {
+            margin-left: 3px;
+            font-size: 16px !important;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0em;
+
+
+
+      }
+
+      .css-1qvr50w-MuiTypography-root {
+            font-size: 16px !important;
+
+      }
+
+
+      .plate-card-content {
+            width: 107px;
+            height: 189px;
+            margin-left: 24px;
+
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+
+      }
+
+      .css-ahj2mt-MuiTypography-root {
+            font-size: 12px !important;
+      }
+
+      .css-46bh2p-MuiCardContent-root:last-child {
+
+            height: 68px;
+            width: 161px;
+      }
+
+      .plate-card-footer {
+            color: rgba(66, 66, 66, 1);
+            height: 74px;
+            width: 162px;
+            margin-top: -20px;
+            font-size: 12px;
+
+      }
+
+      .plate-steps {
+            display: block;
+      }
+
+      /* Radio */
+
+      .plate-radio {
+            margin-top: 1000px;
+            left: 16px;
+            padding-bottom: 200px;
+            width: 100px;
+
+
+      }
+
+      .allergy-img {
+            height: 40px;
+            margin-top: 5.5px;
+      }
+
+      .allergy-radio {
+            width: 280px;
+      }
+
+      .radio-head {
+            font-size: 18px;
+            width: 280px;
+
+      }
+.allergy-show{
+      left: 16px;
+      top:1140px;
+      height: 30px;
+
+}
+.allergy-container {
+      width: 557px;
+      left: 60px;
+}
+
+.allergy-scroll-container {
+      display: flex;
+      justify-content: flex-start;
+      /* Align text to the left */
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      list-style: none;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      height: 60px;
+      margin-top: 0px;
+      padding: 0px;
+      width: 150px;
+      white-space: nowrap;
+      /* Keep the text in a single line */
+      text-overflow: ellipsis;
+      /* Add ellipsis (...) for hidden text */
+
+}
+.allergy-text {
+      margin-top: 5px;
+      margin-left: 10px;
+      font-size:14px;   
+}
+      .bg2 {
+            display: none;
+      }
+
+
+      .plate-foot {
+            width: 100%;
+            bottom: 0px;
+            width: 374.73px;
+            height: 52px;
+            padding: 8px 16px 8px 16px;
+
+      }
+
+  
+
+      .plate-steps {
+            margin-top: -25px;
+      }
+
+      .steps-style {
+            color: #ff6d00;
+      }
+
+
+   
+
+      .options {
+            width: 10px;
+      }
+
+      .continue-button {
+            left: 212px;
+
+            margin-top: 3px;
+            width: 127px;
+            height: 36px;
+
+      }
+
+      .continue-button-text {
+            font-size: 16px;
+            font-weight: 500;
+      }
+
+      .continue-steps {
+            display: flex;
+      }
+
+      /* Modal */
+      .allergy-container {
+            width: 300px;
+            height: 584px;
+            left: 50px;
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+
+
+      }
+
+      #modal-top {
+            width: 300px;
+            height: 53px;
+            border-radius: 13px 13px 0px 0px;
+
+      }
+
+      .choose_allergy {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            text-align: left;
+
+      }
+      #clear-icon{
+            margin-left: 40px;
+            height:22px;
+            
+      }
+
+      .checkbox-text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+
+      }
+
+      .allergy-others textarea {
+            width: 240px;
+            height: 111px;
+            top: 385px;
+            left: 16px;
+            border-radius: 6px;
+
+
+
+      }
+
+      .others-text {
+            font-size: 16px;
+            font-weight: 400;
+      }
+
+      .modal-btn {
+            position: absolute;
+            bottom: 20px;
+            left: 60px;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 0;
+            display: flex;
+      }
+
+      .modal-btn button {
+            margin-right: 10px;
+      }
+
+      .modal-btn button:last-child {
+            margin-right: 0;
+            margin-left: 10px;
+
+      }
+
+      .cancel-button {
+
+            width: 65px;
+            height: 27px;
+
+            font-size: 16px;
+            font-weight: 400;
+            border-style: none;
+            background-color: white;
+            color: rgba(66, 66, 66, 1);
+            margin-top: 5px;
+
+
+
+
+
+      }
+
+      .save-button {
+            background-color: #ff6d00;
+            width: 121px;
+            height: 40px;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+      }
+      button.back-button {
+
+            display: none;
+      }
+      .plate-progress {
+            display: none;
+
+      }
+
+      .selected-card {
+            border: 2px solid #ff6d00;
+            /* Additional styles for selected card */
+          }
+          
+}

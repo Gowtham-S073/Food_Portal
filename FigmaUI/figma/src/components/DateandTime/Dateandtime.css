@@ -1,0 +1,1092 @@
+* {
+  font-family: 'Poppins';
+}
+.MuiButtonBase-root.MuiPickersDay-root.Mui-selected:hover{
+  background-color: #fa7d1d;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root:not(.Mui-selected) {
+  border: none;
+}
+.MuiButtonBase-root.MuiPickersDay-root:not(:disabled){
+  color:black;
+  font-weight: 600;
+}
+.MuiButtonBase-root.MuiPickersDay-root.Mui-selected {
+  background-color: #FF6D00;
+  color:white;
+}
+
+#centertext {
+  position: absolute;
+  width: 100px;
+  height: 32px;
+  margin-left: 480px;
+  margin-top: 120px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  white-space: nowrap;
+  color: black;
+}
+
+#bg {
+  position: absolute;
+  left: 0px;
+  bottom: 90px;
+  width: 500px;
+}
+
+.col1 {
+  position: absolute;
+  width: 259px;
+  height: 32px;
+  left: 530px;
+  top: 350px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #424242;
+  white-space: nowrap;
+}
+
+#date {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  margin-top: 5px;
+  left:-50px;
+}
+
+.datepicker {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  height: 30px;
+  width: 300px;
+  caret-color: transparent;
+  cursor: pointer;
+}
+
+#dateimg{
+  margin-right: 20px;
+}
+
+#timeimg{
+  margin-right: 20px;
+}
+
+.time::placeholder,
+.datepicker::placeholder,
+#location::placeholder {
+  color: #424242; 
+}
+
+#location::placeholder{
+  font-size: medium;
+}
+
+.col2hr {
+  width: 370px;
+  height: 0px;
+  position: absolute;
+  top: 440px;
+  left: 480px;
+  color: #777777;
+}
+
+.time {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  height: 30px;
+  width: 300px;
+  caret-color: transparent;
+  cursor: pointer;
+}
+
+.datepicker:focus {
+  outline: none;
+}
+
+.time:focus {
+  outline: none;
+}
+
+.col2 {
+  position: absolute;
+  width: 356px;
+  height: 0px;
+  left: 480px;
+  top: 415px;
+  cursor: pointer;
+}
+
+.col3hr {
+  width: 355px;
+  height: 0px;
+  position: absolute;
+  top: 440px;
+  left: 940px;
+  color: #777777;
+}
+
+.col3 {
+  position: absolute;
+  width: 356px;
+  height: 0px;
+  left: 935px;
+  top: 415px;
+  cursor: pointer;
+} 
+
+#delivery {
+  position: absolute;
+  width: 28px;
+  height: 21px;
+  margin-top: 5px;
+  left:-50px;
+}
+
+.col4 {
+  position: absolute;
+  width: 307px;
+  height: 32px;
+  left: 530px;
+  top: 530px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #424242;
+  white-space: nowrap;
+}
+
+.option1 {
+  position: relative;
+  top: 515px;
+  left: 480px;
+}
+
+.option2 {
+  position: relative;
+  top: 515px;
+  left: 600px;
+}
+
+.option3{
+  position: relative;
+  top: 515px;
+  left: 715px;
+}
+
+#locimg {
+  position: absolute;
+  left: 480px;
+  top: 660px;
+  width: 20px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+#location {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  height: 30px;
+  position: absolute;
+  left: 510px;
+  top: 660px;
+ 
+}
+
+#location:focus {
+  outline: none;
+}
+
+
+.addhr {
+  width: 818px;
+  height: 0px;
+  position: absolute;
+  top: 685px;
+  left: 480px;
+  color: #777777;
+
+}
+
+.time-btn{
+  border:none;
+  border-radius: 9px; width: 178px; height: 45px; font-size:medium; color:rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid #d2d2d2;
+  white-space: nowrap;
+  display: block;
+  outline: none;
+  margin-bottom: 25px;
+  margin-left:20px;
+  padding-right: 10px;
+  padding-left:5px;
+}
+
+.time-btn[disabled] {
+  background-color:#F0F3F8;
+  border:none;
+  color:#717171;
+}
+
+.time-btn[disabled]:hover {
+  background-color: rgba(242, 175, 87, 0.1);
+  color:#656565;
+  cursor:pointer;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.timeslots{
+  width:620px;
+  height: auto;
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.btns{
+  margin-top:20px;
+  display: flex;
+  float: right;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  margin-left:400px;
+ }
+
+ .cancel {
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: transparent;
+  box-shadow: none;
+  background-color: white;
+  margin-right: 15px;
+}
+
+.apply {
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: #FF6D00;
+  border: none;
+  border-radius: 6px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+} 
+
+.slothead {
+  font-size: x-large;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.popover-paper {
+  box-shadow: none !important;
+}
+
+.time-btn.selected {
+  background-color: #FF6D00;
+  color: #fff;
+}
+
+.btndateapply {
+  background-color: #FF6D00;
+  color: white;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 275px;
+  width: 95px;
+  height: 33px;
+  border-radius: 6px;
+}
+
+.btndateapplydisable{
+  background-color:  #C1C8CF;
+  color: white;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 275px;
+  width: 95px;
+  height: 33px;
+  border-radius: 6px;
+}
+
+.btndatecancel {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 164px;
+  width: 100px;
+  height: 35px;
+}
+
+.calendar
+{
+  position: absolute;
+  left: 480px;
+  width: 380px;
+  height: 300px;
+  top: 457px;
+  border: 1px solid #d2d2d2;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  background-color: white;
+}
+
+.datebox {
+  position: absolute;
+  width: 380px;
+  height: 67px;
+  left: 480px;
+  top: 757px;
+  border-bottom: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
+
+.prbtn {
+  background-color: white;
+  border: 2px solid #FF6D00;
+  color: #FF6D00;
+  width: 137px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 8%;
+  height: 44px;
+  border-radius: 8px;
+}
+
+
+.prbtn1 {
+  background-color: #FF6D00;
+  color: white;
+  border: 2px solid #FF6D00;
+  width: 175px;
+  top: 54%;
+  left: 84%; 
+  transform: translateY(-50%);
+  position: absolute;
+  right: 8%;
+  border-radius: 8px;
+  height: 44px;
+}
+
+.buttonDisabledStyle  {
+  background-color: #C1C8CF;
+  color: #FFFFFF;
+  font-weight: 500;
+  cursor: not-allowed;
+  border-style: none;
+  width: 175px;
+  top: 54%;
+  left: 84%; 
+  transform: translateY(-50%);
+  position: absolute;
+  right: 8%;
+  border-radius: 8px;
+  height: 44px;
+}
+
+.progress-bartime {
+  width: 1025px;
+  max-width: 100%;
+  height: 8px;
+  top: 35%;
+  transform: translateY(-50%);
+  background-color: #eeeeee;
+  overflow: hidden;
+  position: absolute;
+  left: 24%;
+}
+
+
+.progresstime {
+  height: 100%;
+  background-color: #F7D38C;
+  width: 0%;
+}
+
+#percentagetime {
+  position: absolute;
+  font-weight: 500;
+  color: #424242;
+  top: 70%;
+  transform: translateY(-50%);
+  left:24%;
+}
+
+.footertime {
+  box-shadow: 11px 3px 11px 3px rgba(12, 11, 11, 0.07);
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  padding-bottom: 90px;
+  right: 0;
+  bottom: 0px;
+  background-color: white;
+}
+
+.Ifooter{
+  display:none;
+}
+
+
+@media (min-width:830px) and (max-width: 1000px) 
+{
+
+  #centertext{
+    margin-left:32px;
+    margin-top:70px;
+  }
+  .col1{
+    position:absolute;
+    top:270px;
+    left:76px;
+  }
+  .col2{
+    position:absolute;
+    top: 345px;
+    left: 78px;
+  }
+  .col2hr{
+    position:absolute;
+    top: 368px;
+    left: 78px;
+    width: 440px;
+  }
+
+  .col3{
+    position:absolute;
+    top: 425px;
+    left: 78px;
+  }
+
+  .col3hr{
+    position:absolute;
+    top: 450px;
+    left: 78px;
+    width: 440px;
+  }
+
+  .col4{
+    position:absolute;
+    top: 530px;
+    left:76px;
+  }
+  .option1{
+    position:relative;
+    top: 538px;
+    left:78px;
+  }
+
+  .option2{
+    position:relative;
+    top: 600px;
+    left:-23px;
+  }
+
+  .option3{
+    position:relative;
+    top: 660px;
+    left:-132px;
+  }
+  #locimg{
+    position:relative;
+    top: 690px;
+    left:78px;
+  }
+
+  #location{
+    position:relative;
+    top: 690px;
+    left: 90px;
+  }
+  .addhr{
+    position: absolute;
+    top: 820px;
+    left:78px;
+    width:700px;
+  }
+
+  #bg{
+    position: absolute;
+    bottom: 90px;
+  }
+
+  .calendar
+{
+  position: absolute;
+  left: 78px;
+  width: 400px;
+  height: 360px;
+  top: 390px;
+  border: 1px solid #d2d2d2;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  background-color: white;
+ 
+}
+.datebox {
+  position: absolute;
+  width: 400px;
+  height: 74px;
+  left: 78px;
+  top: 750px;
+  border-bottom: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+} 
+
+.footertime{
+  position:absolute;
+  /* top: 1100px; */
+  bottom: 0px;
+}
+
+.prbtn {
+  width: 100px;
+  left: 5%;
+  top:50%;
+}
+
+  .prbtn1 {
+    width: 120px;
+    left: 85%;
+    right: 8%;
+    top:50%;
+  }
+
+  .buttonDisabledStyle  {
+    width: 120px;
+    left: 85%;
+    right: 8%;
+    top:50%;
+  }
+
+  .progress-bartime {
+    top:50%;
+    width: 60%;
+    left: 20%;
+  }
+
+  #percentagetime {
+    position:absolute;
+    left:0%;
+    transform: translateX(50%);
+  }
+  .Ifooter{
+    display:none;
+  }
+}
+
+@media (min-width:500px) and (max-width: 830px) 
+{
+
+  #centertext{
+    margin-left:32px;
+    margin-top:70px;
+  }
+  .col1{
+    position:absolute;
+    top:270px;
+    left:76px;
+  }
+  .col2{
+    position:absolute;
+    top: 345px;
+    left: 78px;
+  }
+  .col2hr{
+    position:absolute;
+    top: 368px;
+    left: 78px;
+    width: 400px;
+  }
+
+  .col3{
+    position:absolute;
+    top: 425px;
+    left: 78px;
+  }
+
+  .col3hr{
+    position:absolute;
+    top: 450px;
+    left: 78px;
+    width: 400px;
+  }
+
+  .col4{
+    position:absolute;
+    top: 530px;
+    left:76px;
+  }
+  .option1{
+    position:relative;
+    top: 538px;
+    left:78px;
+  }
+
+  .option2{
+    position:relative;
+    top: 600px;
+    left:-23px;
+  }
+
+  .option3{
+    position:absolute;
+    top: 655px;
+    left: 75px;
+    white-space: nowrap;
+  }
+  
+  #locimg{
+    position:relative;
+    top: 690px;
+    left:78px;
+  }
+
+  #location{
+    position:relative;
+    top: 690px;
+    left: 90px;
+  }
+  .addhr{
+    position: absolute;
+    top: 820px;
+    left:78px;
+    width:450px;
+  }
+
+  #bg{
+    position: absolute;
+    bottom: 90px;
+    width:400px;
+  }
+
+  .calendar
+{
+  position: absolute;
+  left: 78px;
+  width: 400px;
+  height: 360px;
+  top: 390px;
+  border: 1px solid #d2d2d2;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  background-color: white;
+ 
+}
+.datebox {
+  position: absolute;
+  width: 400px;
+  height: 74px;
+  left: 78px;
+  top: 750px;
+  border-bottom: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+} 
+
+.btndatecancel {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 164px;
+  width: 100px;
+  height: 35px;
+}
+
+.btndateapply {
+  background-color: #FF6D00;
+  color: white;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 275px;
+  width: 95px;
+  height: 33px;
+  border-radius: 6px;
+}
+
+.btndateapplydisable{
+ 
+  top: 15px;
+  left: 280px;
+  width: 95px;
+  height: 33px;
+  border-radius: 6px;
+}
+
+.footertime{
+  position:absolute;
+  bottom: 0px;
+}
+
+.prbtn {
+  width: 100px;
+  left: 5%;
+  top:50%;
+}
+
+  .prbtn1 {
+    width: 90px;
+    left: 80%;
+    right: 8%;
+    top:50%;
+  }
+
+  .buttonDisabledStyle  {
+    width: 90px;
+    left: 80%;
+    right: 8%;
+    top:50%;
+  }
+
+  .progress-bartime {
+    top:50%;
+    width: 60%;
+    left: 20%;
+  }
+
+  #percentagetime {
+    position:absolute;
+    left:0%;
+    transform: translateX(50%);
+  }
+  .Ifooter{
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 500px) 
+{
+
+  #centertext{
+    margin-left:20px;
+    margin-top:50px;
+    font-size:20px;
+  }
+  .col1{
+    position:absolute;
+    top:170px;
+    left:50px;
+    font-size: 18px;
+    font-weight:500;
+  }
+  .col2{
+    position:absolute;
+    top: 220px;
+    left: 26px;
+  }
+  .col2hr{
+    position:absolute;
+    top: 240px;
+    left: 28px;
+    width: 300px;
+  }
+
+  .col3{
+    position:absolute;
+    top: 280px;
+    left: 26px;
+  }
+
+  .col3hr{
+    position:absolute;
+    top: 300px;
+    left: 26px;
+    width: 300px;
+  }
+
+  .col4{
+    position:absolute;
+    top: 380px;
+    left:73px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .option1{
+    position:relative;
+    top: 380px;
+    left:26px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .option2{
+    position:relative;
+    top: 420px;
+    left:-74px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .option3{
+    position:relative;
+    top: 420px;
+    left:26px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  #locimg{
+    position:relative;
+    top: 428px;
+    left:26px;
+    width:17px;
+    height:20px;
+  }
+  .time::placeholder,
+  .datepicker::placeholder{
+    font-size: medium;
+  }
+
+  #location{
+    position:relative;
+    top: 430px;
+    left: 40px;
+    width:300px;
+  }
+
+  #date {
+    left:-25px;
+  }
+
+  #delivery {
+    left:-50px;
+  }
+  .addhr{
+    position: absolute;
+    top: 600px;
+    left:26px;
+    width:320px;
+  }
+
+  #bg{
+   display:none;
+  }
+
+  .calendar
+{
+  position: absolute;
+  left: 26px;
+  width:300px;
+  height: 300px;
+  top: 254px;
+  border: 1px solid #d2d2d2;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  background-color: white; 
+}
+
+.datebox {
+  position: absolute;
+  width: 300px;
+  height: 74px;
+  left: 26px;
+  top: 554px;
+  border-bottom: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
+
+.btndateapply {
+  background-color: #FF6D00;
+  color: white;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 200px;
+  width: 85px;
+  height: 28px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btndateapplydisable{
+ 
+  top: 15px;
+  left: 190px;
+  width: 95px;
+  height: 33px;
+  border-radius: 6px;
+}
+
+.btndatecancel {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  width: 80px;
+  height: 35px;
+  font-size: 14px;
+}
+
+.timeslots{
+  width:300px;
+  height: auto;
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;   
+}
+
+.time-btn{
+  border:none;
+  border-radius: 9px; width: 180px; height: 40px; font-size:small; color:rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid #d2d2d2;
+  white-space: nowrap;
+  display: block;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left:60px;
+  padding-right: 10px;
+  padding-left:5px;
+
+}
+
+.btns{
+  margin-top:5px;
+  margin-right: 25px;
+  margin-bottom: 6px;
+  margin-left:60px;
+ }
+
+ .cancel {
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: transparent;
+  box-shadow: none;
+  background-color: white;
+  margin-right: 15px;
+
+}
+
+.time {
+  width: auto;
+}
+
+.datepicker {
+   width: auto;
+
+}
+
+.apply {
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: #FF6D00;
+  border: none;
+  border-radius: 6px;
+  width: 90px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+ 
+} 
+
+.slothead {
+  font-size: larger;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 18px;
+}
+
+.footertime{
+  position:absolute;
+  bottom: 0px;
+}
+
+.prbtn {
+  width: 100px;
+  left: -2% !important;
+  position: relative;
+  top: -660px !important;
+  border:none;
+  background:transparent;
+}
+
+  .prbtn1 {
+    width: 126px;
+    height:36px;
+    left: 60%;
+    right: 8%;
+    top:50%;
+  }
+
+  .buttonDisabledStyle {
+    width: 126px;
+    height:36px;
+    left: 60%;
+    right: 8%;
+    top:50%;
+  }
+
+  .Ifooter {
+    top:40%;
+    left: 8%;
+    position:absolute;
+    display:block;
+  }
+
+  .progress-bartime {
+    top:50%;
+    width: 60%;
+    left: 20%;
+    display:none;
+  }
+
+  #percentagetime {
+    position:absolute;
+    left:0%;
+    transform: translateX(50%);
+    display:none;
+  }
+}

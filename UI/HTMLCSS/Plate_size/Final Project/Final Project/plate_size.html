@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <head>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <link href="plate_size.css" rel="stylesheet">
+            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css"
+                  rel="stylesheet" />
+
+      </head>
+
+<body>
+      <div id="whole">
+            <header>
+                  <!--header part-->
+                  <div class="container-fluid">
+                        <div id="header">
+                              <div class="col-md-12">
+                                    <a class="navbar-brand" href="#">
+                                          <img src="./images/Logo.png" alt="logo" />
+                                    </a>
+                              </div>
+                        </div>
+
+                  </div>
+            </header><br><br><br>
+
+            <h2 class="there">Almost there!</h2>
+            <div class="breadcrumb">
+
+
+                  18th August 2022, 11 am - 12.00 pm, Rattha Group...<span class="line"> &nbsp; &nbsp; | &nbsp; &nbsp;
+                  </span>
+                  25 Guests <span class="line"> &nbsp; &nbsp; | &nbsp; &nbsp; </span> Veg & Non-Veg </div>
+
+            <div class="container">
+                  <img src="./images/bg2.png" class="botimg">
+
+                  <div class="row">
+
+                        <div id="orange">
+                              <img src="./images/Group.png" class="grp" alt="Image is not displayed">
+                              <h3 class="platesize">What will be the Plate size?</h3><br>
+                        </div>
+                        <div class="col">
+                              <div class="card" data-bs-toggle="collapse" data-bs-target="#allergy" onclick="enable()"
+                                    id="enable">
+                                    <div class="card-body">
+                                          <p class="card-title">Small</p>
+                                          <p class="card-text">1 starter + 1 curry + 1 bread + white rice + 1 dessert
+                                          </p>
+                                    </div>
+                                    <div class="card-footer" id="cf">
+                                          <p class="card-text">*Veg only:$10/plate<br>Regular:$12/plate</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                              <div class="card" data-bs-toggle="collapse" data-bs-target="#allergy" onclick="enable()">
+                                    <div class="card-body">
+                                          <p class="card-title">Medium</p>
+                                          <p class="card-text">2 starter + 1 curry + 1 bread + white rice + 1 dessert +
+                                                1
+                                                watter bottle or soda</p>
+                                    </div>
+                                    <div class="card-footer" id="cf">
+                                          <p class="card-text">*Veg only:$12/plate<br>Regular:$14/plate</p>
+                                    </div>
+
+
+                              </div>
+                        </div>
+                        <div class="col">
+                              <div class="card" data-bs-toggle="collapse" data-bs-target="#allergy" onclick="enable()">
+                                    <div class="card-body">
+                                          <p class="card-title">Large</p>
+                                          <p class="card-text">2 types of starters + 2 types of curries + 1 bread + 1
+                                                type of
+                                                variety rice or chapathi + white rice + 1 dessert + 1 water bottle or
+                                                soda</p>
+                                    </div>
+                                    <div class="card-footer" id="cf">
+                                          <p class="card-text">*Veg only:$14/plate<br>Regular:$16/plate</p>
+                                    </div>
+
+
+                              </div>
+                        </div>
+                        <div class="col">
+                              <div class="card" data-bs-toggle="collapse" data-bs-target="#allergy" onclick="enable()">
+                                    <div class="card-body">
+                                          <p class="card-title">Grand Plate</p>
+                                          <p class="card-text">2 types of starters + 2 types of curries + 2 types of
+                                                bread + 1
+                                                Biriyani + white rice + 2 desserts + 1 water bottle or soda</p>
+                                    </div>
+                                    <div class="card-footer" id="cf">
+                                          <p class="card-text">*Veg only:$16/plate<br>Regular:$18/plate</p>
+                                    </div>
+
+
+                              </div>
+                        </div>
+
+                        <div class="col-md">
+                              <div class="card" data-bs-toggle="collapse" data-bs-target="#allergy " onclick="enable()">
+                                    <div class="card-body">
+                                          <p class="card-title">Custom Plate</p>
+                                          <img src="./images/Vector.png" class="vector" alt="Image is not found">
+                                    </div>
+                                    <div class="card-footer" id="cf">
+                                          <p class="card-text">*Minimum spend of $1000</p>
+                                    </div>
+
+
+                              </div>
+                        </div>
+
+                        <div>
+                              <img src="./images/allergyimg.png" class="collapse" id="foodallergyimg"
+                                    alt="Image is not found">
+
+                              <h3 id="allergy" class="collapse"> Are you allergic to any food?</h3><br>
+                        </div>
+                        <div id="allergy" class="collapse">
+                              <input type="radio" id="yes" value="" name="same" onclick="yesFunction()">
+                              <label for="allergic">Yes</label>
+                              <input type="radio" id="no" value="" name="same" onclick="noFunction()">
+                              <label for="allergic">No</label><br><br>
+
+
+                        </div>
+                  </div>
+
+
+
+            </div>
+      </div>
+      
+
+
+
+
+
+
+
+      <div id="modal">
+            <div class="px-4 modal-title">
+                  <h4 class="px-5 pt-4"><span id="allhead">Choose Your Allergies</span> <span><a href="plate_size.html"
+                                    id="close"></a></span></h4>
+            </div>
+            <div class="px-5 py-5  ">
+                  <table class="td1">
+                        <tr>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t1">Peanut</sapn>
+                                    </p>
+                              </td>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t2">Eggs</sapn>
+                                    </p>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t3">Wheat</sapn>
+                                    </p>
+                              </td>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t4">Sesame</sapn>
+                                    </p>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t5">Soy</sapn>
+                                    </p>
+                              </td>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t6">Gluten</sapn>
+                                    </p>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t7">Milk</sapn>
+                                    </p>
+                              </td>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t8">Meat</sapn>
+                                    </p>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t9">Tree nuts</sapn>
+                                    </p>
+                              </td>
+                              <td>
+                                    <p class="px-5"><input type="checkbox" name="" id="">
+                                          <sapn class="px-3" id="t10">Shellfish</sapn>
+                                    </p>
+                              </td>
+                        </tr>
+                  </table>
+
+                  <div class="px-5 py-4">Others<br>
+                        <textarea name="" id="" cols="70" rows="5"></textarea>
+
+                  </div>
+
+                  <div class="float-end px-3 py-3">
+                        <input type="button" id="cancelbtn" onclick="cancel()" value="Cancel" class="px-3">
+                        <input type="button" id="savebtn" onclick="f1()" value="Save">
+
+                  </div>
+            </div>
+      </div>
+      <footer class="foot">
+            <a href="./../../../Veg and non-veg/Food Portal/veg&nonveg.html"><button type="button" class="btn"
+                        id="backbtn">&#60; Back </button></a>
+            <div class="progress">
+                  <div class="progress-bar " style="width: 60%;"></div>
+
+            </div>
+            <h6>60%</h6>
+            <a href="./../../../page1.html">
+                  <button type="button" disabled="disabled" class="btn" id="btn1">Continue &#62;</button>
+            </a>
+      </footer>
+
+
+
+
+
+
+
+
+</body>
+<script>
+      function yesFunction() {
+            document.getElementById("modal").style.display = "block";
+            document.getElementById("whole").style.opacity = "0.3";
+
+
+      }
+      function noFunction() {
+            document.getElementById("modal").style.display = "none";
+      }
+
+
+      function enable() {
+            document.getElementById("btn1").disabled = false;
+            document.getElementById('btn1').style.backgroundColor = '#FF6D00';
+      }
+      function cancel() {
+            window.location.href = "plate_size.html"
+      }
+
+      function f1() {
+            window.location.href = "plate_size.html"
+      }
+
+
+
+
+</script>
+
+
+
+</html>

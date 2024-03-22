@@ -1,0 +1,192 @@
+header{
+    position: absolute;
+    width: 99%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 3px 11px rgba(86, 86, 86, 0.07);
+    }
+    
+    .logo{
+    position:absolute;
+    width: 121px;
+    height: 45px;
+    left: 150px;
+    top: 17px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+   
+    .OD{
+        left: 150px;
+        background: #FFFFFF;
+        color: #737373;
+        align-content: center;
+        
+    }
+    
+    ul li{
+        color: #737373;
+        list-style: none;
+        float:left;
+    }
+    header li{
+        list-style: none;
+        float: left;
+    }
+    
+    
+    
+    
+    .Addon-Menu li{
+        color:  #FF6D00;
+        
+    }
+    table, td, tr{
+        color: #424242;
+        align-content: center;
+    }
+    
+    .details{
+    position: absolute;
+    width: 1323px;
+    height: 0px;
+    left: 150px;
+    top: 543px;
+    
+    border: 1px solid #D8D8D8;
+    }
+    body{
+        /* color: #D8D8D8; */
+        color: #424242;
+    }
+    
+    .progress{
+        
+    position: absolute;
+    left: 23.65%;
+    right: 23.49%;
+    top: 31.58%;
+    bottom: 31.58%;
+    }
+    
+    .btn1{
+        /* width:120px;
+        height:30px; */
+        border-radius: 8px;
+        color:#FF6D00;
+        border: 2px solid #FF6D00; 
+    background-color: white;
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 40px;
+    gap: 10px;
+    }
+    .btn1:hover{
+        color:#ffffff;
+        border: 2px solid #FF6D00; 
+        background-color: #FF6D00; 
+    }
+    .footer-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    
+    .btn2 a{
+        text-decoration: none;
+        color:white;
+    }
+
+    .btn2 a:hover{
+        text-decoration: none;
+        color: orangered;
+    }
+    a:hover{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .btn2{
+        float:right;
+        /* width:120px;
+        height: 30px; */
+    color: #FFFFFF;
+    border:2px solid #FF6D00; 
+    background: #FF6D00;
+    border-radius: 8px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 40px;
+    gap: 10px;
+    
+    }
+    .btn2:hover{
+        color:#FF6D00;
+        border: 2px solid #FF6D00; 
+        background-color: white;
+    }
+    footer{
+        /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
+        position: absolute;
+    width: 100%;
+    height: 90px;
+    
+    
+    background: #FFFFFF;
+    box-shadow: 0px 3px 11px rgba(86, 86, 86, 0.80);
+    }
+    
+    
+    .inputNote{
+    margin-top: 5px;    
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 1035px;
+    height: 120px; 
+    /* left: 150px;
+    top: 398px;  */
+    
+    border: 0.5px solid #9B9B9B;
+    border-radius: 6px;
+    }
+    @media screen and (max-width:1200px) {
+        .inputNote{
+            width: 640px;
+    
+        }
+    
+    }
+    @media screen and (max-width:800px) {
+        .inputNote{
+            width: 620px;
+    
+        }
+    
+    }
+    @media screen and (max-width:420px) {
+        .inputNote{
+            width: 300px;
+        }
+    }    
+    @media screen and (max-width:375px) {
+        .inputNote{
+            width: 180px;;
+    
+        }
+    }    
+    
+    
+    
+    
+    
+    
+    
+    

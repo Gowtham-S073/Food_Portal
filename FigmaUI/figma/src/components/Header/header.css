@@ -1,0 +1,32 @@
+.head{
+    margin-left: 8%;
+    margin-top: 1%;
+    margin-bottom: 0.5rem;
+}
+nav{
+    box-shadow: 3px 2px 8px 0 rgba(12, 11, 11, 0.07);
+    width: 100% !important;
+}
+
+/* Responsiveness for iPad */
+@media (max-width: 834px) {
+    .head{
+        margin-left:5%;
+    }
+    nav{
+        width: 834px;
+        height: 72px;
+    }
+  }
+  /* Responsiveness for iPhone */
+@media (max-width: 375px) {
+   .head{
+    margin-left:5%;
+    width: 82px;
+    height: 36px;
+   }
+   nav{
+    width: 375px;
+    height: 44px;
+}
+}

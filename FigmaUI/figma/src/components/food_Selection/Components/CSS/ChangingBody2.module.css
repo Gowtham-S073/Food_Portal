@@ -1,0 +1,9 @@
+:root {
+    --darkest: #212121; 
+    --darker: #292323;
+    --dark: #424242;
+    --light: #646464;
+    --lighter: #727272;
+    --lightest: #9E9E9E;
+    --selected: #FF6D00;
+}

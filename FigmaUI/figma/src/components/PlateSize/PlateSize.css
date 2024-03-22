@@ -1,0 +1,537 @@
+* {
+      font-family: 'poppins' !important;
+}
+
+/* Almost there! */
+.there {
+      position: absolute;
+      margin-top: 140px;
+      width: 217px;
+      height: 32px;
+      left: 480px;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(33, 33, 33, 1);
+}
+
+
+
+.plate-pagination{
+      position: absolute;
+top: 270px;
+width: 739px;
+height: 32px;
+left: 480px;
+padding: 0px 115px 0px 0px;
+
+}
+
+.orange {
+      display: flex;
+      position: absolute;
+      width: 437px;
+      height: 32px;
+      margin-top: 270px;
+      left: 480px;
+
+
+
+}
+
+.grp {
+      width: 31px;
+      height: 31px;
+      border: 0.75px;
+
+
+}
+
+.platesize {
+      margin-left: 30px;
+      color: rgba(66, 66, 66, 1);
+      font-size: 22px;
+      
+
+
+}
+
+/* card container */
+.plate-card-container {
+      position: absolute;
+      display: flex;
+      margin-top: 340px;
+      left: 480px;
+      gap: 32px;
+}
+
+
+.plate-card {
+      width: 200px;
+      height: 305px;
+      border: 1px solid rgba(193, 200, 207, 1);
+
+
+
+
+}
+
+
+.plate-card-header {
+      margin-top: 4px;
+      font-weight: 500;
+      text-align: center;
+      color: rgba(66, 66, 66, 1);
+
+
+}
+
+.plate-steps {
+      display: none;
+}
+
+.css-1qvr50w-MuiTypography-root {
+      font-size: 18px !important;
+}
+
+.plate-card-content {
+      text-align: center !important;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      color: rgba(66, 66, 66, 1);
+      width: 165px;
+      height: 77px;
+      margin-left: 16px;
+
+
+
+}
+
+.css-ahj2mt-MuiTypography-root {
+      font-size: 14px !important;
+
+}
+
+
+.plate-card-footer {
+      width: 200px;
+      height: 82px;
+      margin-top: 70px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: center;
+      background: rgba(247, 211, 140, 0.25);
+
+      border-radius: 0px 0px 3px 3px;
+      margin-left: -18px;
+
+
+
+}
+
+/* radio */
+.plate-radio {
+      width: 364px;
+      height: 81px;
+      margin-top: 660px;
+      left: 480px;
+      position: absolute;
+      padding-bottom: 180px;
+
+
+}
+
+.options {
+      height: 81px;
+      display: flex;
+      padding: 10px;
+
+
+}
+
+#yes-radio {
+      accent-color: orangered;
+      cursor: pointer;
+}
+
+#no-radio {
+      accent-color: orangered;
+      cursor: pointer;
+}
+
+.allergy-radio {
+      padding: 10px;
+
+
+}
+
+.radio-head {
+      width: 322px;
+      height: 32px;
+
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(66, 66, 66, 1);
+
+}
+
+
+.yes-option {
+      padding-right: 20px;
+      padding-left: 5px;
+
+}
+
+.no-option {
+      padding-left: 5px;
+
+}
+
+.allergy-img {
+      padding: 10px;
+
+}
+
+
+
+/* choosed allergy */
+.allergy-show {
+      display: flex;
+      position: absolute;
+      height: 40px;
+      top: 752px;
+      left: 920px;
+      border-radius: 8px;
+      background-color: rgba(247, 211, 140, 0.25);
+
+}
+
+.allergy-scroll-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+    
+    }
+
+
+
+.allergy-edit {
+      width: 30px;
+      margin-top: 10px;
+
+      height: 18px;
+      border: 0.20000000298023224px;
+      padding-left: 10px;
+
+}
+
+.allergy-text{
+      margin-left: 14px;
+      margin-top: 7px;
+}
+
+/* background-img */
+.bg2 {
+      position: absolute;
+
+      margin-left: 0px;
+      margin-top: 499px;
+      margin-left: 0px;
+
+      z-index: -1;
+      width: 550px;
+      height: 34px;
+      top: 21px;
+      width: 566px
+}
+
+
+.allergy-container {
+      height: 600px;
+      width: 650px;
+      background-color: white;
+      border-radius: 13px;
+      position: absolute;
+      top: 160px;
+      left: 470px;
+}
+
+
+
+#modal-top {
+      display: flex;
+      background: linear-gradient(0deg, rgba(151, 151, 151, 0), rgba(151, 151, 151, 0)),
+            linear-gradient(0deg, #fdf4e2, #fdf4e2);
+      width: 650px;
+      height: 53px;
+      border-radius: 13px 13px 0px 0px;
+
+      margin-left: -12px;
+      align-items: center;
+
+
+}
+
+#clear-icon {
+      margin-left: 353px;
+      width: 33px;
+      height: 30px;
+      opacity: 0.9;
+      cursor: pointer;
+}
+
+.choose_allergy {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-left: 17px;
+
+
+
+}
+
+
+.checkbox-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 16px;
+      margin-top: 20px;
+      font-size: 20px;
+      color: rgba(66, 66, 66, 1);
+
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+
+
+
+}
+
+.checkbox-label {
+      display: flex;
+      align-items: center;
+      padding: 8px 0;
+}
+.checkbox-tick{
+      cursor: pointer;
+
+}
+.checkbox-text {
+      margin-left: 12px;
+      /* Adjust the margin as needed */
+}
+
+.checkbox-item {
+      padding-right: 20px;
+}
+
+input[type=checkbox] {
+      accent-color: #ff6d00;
+      color: white
+}
+
+
+
+.allergy-others {
+      width: 600px;
+      height: 761px;
+      top: 394px;
+      left: 30px;
+      border-radius: 6px;
+      font-size: 18px;
+      margin-top: 20px;
+
+
+
+}
+
+.allergy-others textarea {
+      width: 590px;
+      height: 140px;
+      margin-top: 10px;
+
+}
+
+.modal-btn {
+      position: absolute;
+      bottom: 20px;
+      left: 420px;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 0;
+      display: flex;
+}
+
+.modal-btn button {
+      margin-right: 10px;
+}
+
+.modal-btn button:last-child {
+      margin-right: 0;
+      margin-left: 10px;
+
+}
+
+.cancel-button {
+
+      width: 65px;
+      height: 27px;
+
+      font-size: 16px;
+      font-weight: 400;
+      border-style: none;
+      background-color: white;
+      color: rgba(66, 66, 66, 1);
+      margin-top: 5px;
+
+
+
+
+
+}
+
+.save-button {
+      background-color: #ff6d00;
+      width: 121px;
+      height: 40px;
+      border-color: #FF6D00;
+      border-radius: 5px;
+      color: white;
+      font-size: 18px;
+}
+
+.plate-steps {
+      display: none;
+}
+
+.plate-foot {
+      bottom: 0px;
+      width: 100%;
+      height: 100px;
+      box-shadow: 0px -4px 26px 0px rgba(131, 144, 175, 0.08);
+      position: fixed;
+      background-color: white;
+
+}
+
+button.iphone-back-button {
+      display: none;
+}
+
+button.back-button {
+      width: 137px;
+      height: 44px;
+      margin-top: 9px;
+      left: 150px;
+      padding: 10px 40px;
+      border-radius: 8px;
+      gap: 6px;
+      text-decoration: none;
+      background-color: white !important;
+      color: rgba(255, 109, 0, 1) !important;
+      border: 1px solid rgba(255, 109, 0, 1) !important;
+
+
+}
+
+.back-button-text {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+}
+
+.iphone-back-button {
+      display: none;
+}
+
+.back-button-text::before {
+      padding-right: 8px;
+}
+
+.progress-container {
+      width: 1015px;
+      position: absolute;
+      height: 8px;
+      align-items: center;
+      left: 454px;
+      margin-top: 21px;
+      background: rgba(238, 238, 238, 1);
+
+
+}
+
+.plate-progress {
+      margin-top: 36px;
+}
+
+.plate-progress-bar {
+      height: 100%;
+      background-color: rgba(247, 211, 140, 1);
+      width: 60%;
+}
+
+.progress-percentage {
+      position: absolute;
+      width: 41px;
+      height: 22px;
+      margin-top: 37px;
+      left: 1022px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(66, 66, 66, 1);
+
+
+
+}
+
+.continue-button {
+      width: 174px;
+      height: 44px;
+      margin-top: 35px;
+      left: 1470px;
+      padding: 10px, 40px, 10px, 40px;
+      color: white;
+      display: block;
+
+
+
+
+}
+
+.continue-button-text {
+      color: white;
+
+}
+
+.no-text-decoration {
+      text-decoration: none;
+      color: white !important;
+
+}
+
+.back-button-text {
+      width: 95px;
+      height: 24px;
+
+}
+
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+      background-color: #FF6D00;
+}
